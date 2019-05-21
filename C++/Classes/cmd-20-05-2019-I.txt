@@ -1,0 +1,49 @@
+    1  cd Foundations/C++/Classes/
+    2  ls
+    3  cp dtortest.cpp objreftest.cpp
+    4  vi objreftest.cpp 
+    5  c++ -o objreftest objreftest.cpp 
+    6  ./objreftest 
+    7  vi objreftest.cpp 
+    8  c++ -o objreftest objreftest.cpp 
+    9  ./objreftest 
+   10  vi objreftest.cpp 
+   11  c++ -o objreftest objreftest.cpp 
+   12  ./objreftest 
+   13  vi objreftest.cpp 
+   14  c++ -o objreftest objreftest.cpp 
+   15  ./objreftest 
+   16  vi objreftest.cpp 
+   17  c++ -o objreftest objreftest.cpp 
+   18  vi objreftest.cpp 
+   19  c++ -o objreftest objreftest.cpp 
+   20  ./objreftest 
+   21  vi objreftest.cpp 
+   22  c++ -o objreftest objreftest.cpp 
+   23  vi objreftest.cpp 
+   24  c++ -o objreftest objreftest.cpp 
+   25  ./objreftest 
+   26  cp classtest1.cpp newdelobjtest.cpp
+   27  vi newdelobjtest.cpp 
+   28  c++ -o newdelobjtest newdelobjtest.cpp 
+   29  vi newdelobjtest.cpp 
+   30  c++ -o newdelobjtest newdelobjtest.cpp 
+   31  ./newdelobjtest 
+   32  vi newdelobjtest.cpp 
+   33  c++ -o newdelobjtest newdelobjtest.cpp 
+   34  ./newdelobjtest 
+   35  vi newdelobjtest.cpp 
+   36  c++ -o newdelobjtest newdelobjtest.cpp 
+   37  ./newdelobjtest 
+   38  vi newdelobjtest.cpp 
+   39  c++ -o newdelobjtest newdelobjtest.cpp 
+   40  ./newdelobjtest 
+   41  cp newdelobjtest.cpp newdelarrtest.cpp
+   42  vi newdelarrtest.cpp 
+   43  c++ -o newdelarrtest newdelarrtest.cpp 
+   44  ./newdelarrtest 
+   45  vi newdelarrtest.cpp 
+   46  c++ -o newdelarrtest newdelarrtest.cpp 
+   47  ./newdelarrtest 
+   48  history
+   49  history > cmd-20-05-2019.txt
