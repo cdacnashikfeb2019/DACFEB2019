@@ -1,0 +1,79 @@
+  998  cd Foundations/
+  999  ls
+ 1000  mkdir C++
+ 1001  cd C++/
+ 1002  mkdir Functions
+ 1003  cd Functions/
+ 1004  vi namespacetest1.cpp
+ 1005  c++ -o namespacetest1 namespacetest1.cpp
+ 1006  ./namespacetest1 
+ 1007  echo $?
+ 1008  vi namespacetest1.cpp
+ 1009  c++ -o namespacetest1 namespacetest1.cpp
+ 1010  ./namespacetest1 
+ 1011  echo $?
+ 1012  vi namespacetest1.cpp
+ 1013  c++ -o namespacetest1 namespacetest1.cpp
+ 1014  ./namespacetest1 
+ 1015  echo $?
+ 1016  vi namespacetest1.cpp
+ 1017  c++ -o namespacetest1 namespacetest1.cpp
+ 1018  ./namespacetest1 
+ 1019  echo $?
+ 1020  vi namespacetest1.cpp
+ 1021  c++ -o namespacetest1 namespacetest1.cpp
+ 1022  vi namespacetest1.cpp
+ 1023  c++ -o namespacetest1 namespacetest1.cpp
+ 1024  ./namespacetest1 
+ 1025  echo $?
+ 1026  vi namespacetest1.cpp
+ 1027  objdump -t namespacetest1
+ 1028  vi namespacetest1.cpp
+ 1029  vi people.h
+ 1030  vi namespacetest2.cpp
+ 1031  c++ namespacetest2 namespacetest2.cpp 
+ 1032  c++ -o namespacetest2 namespacetest2.cpp 
+ 1033  ./namespacetest2
+ 1034  echo $?
+ 1035  c++filt _ZN4Jack4Jill3ageE
+ 1036  c++filt _ZN4Jack4Jill3ageF
+ 1037  objdump -t namespacetest2
+ 1038  vi namespacetest2.cpp
+ 1039  c++ -o namespacetest2 namespacetest2.cpp 
+ 1040  ./namespacetest2
+ 1041  echo $?
+ 1042  vi namespacetest2.cpp
+ 1043  c++ -o namespacetest2 namespacetest2.cpp 
+ 1044  vi namespacetest2.cpp
+ 1045  c++ -o namespacetest2 namespacetest2.cpp 
+ 1046  ./namespacetest2
+ 1047  echo $?
+ 1048  vi namespacetest2.cpp
+ 1049  vi stdnamespacetest.cpp
+ 1050  c++ -o stdnamespacetest stdnamespacetest.cpp 
+ 1051  ./stdnamespacetest 
+ 1052  vi stdnamespacetest.cpp
+ 1053  vi power.h
+ 1054  vi functest.cpp
+ 1055  mv power.h power.cpp
+ 1056  vi functest.cpp
+ 1057  c++ -c power.cpp 
+ 1058  c++ -o functest functest.cpp
+ 1059  c++ -o functest functest.cpp power.o
+ 1060  vi functest.cpp
+ 1061  c++ -o functest functest.cpp power.o
+ 1062  ./functest 
+ 1063  vi functest.cpp
+ 1064  c++ -o functest functest.cpp power.o
+ 1065  vi functest.cpp
+ 1066  c++ -o functest functest.cpp power.o
+ 1067  vi functest.cpp
+ 1068  c++ -o functest functest.cpp power.o
+ 1069  vi functest.cpp
+ 1070  c++ -o functest functest.cpp power.o
+ 1071  ./functest 
+ 1072  vi power.cpp 
+ 1073  objdump -t power.o
+ 1074  vi functest.cpp
+ 1075  c++filt _ZN11Calculation9CalculateElsPi
+ 1076  history > cmd-18-05-2019.txt
