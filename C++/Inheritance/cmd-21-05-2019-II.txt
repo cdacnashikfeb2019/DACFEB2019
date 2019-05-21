@@ -1,0 +1,36 @@
+    7  ls
+    8  vi virtualdtortest.cpp
+    9  c++ -o virtualdtortest virtualdtortest.cpp 
+   10  ./virtualdtortest 
+   11  vi payroll2.h
+   12  c++ -o virtualdtortest virtualdtortest.cpp 
+   13  ./virtualdtortest 
+   14  vi virtualdtortest.cpp
+   15  c++ -o virtualdtortest virtualdtortest.cpp 
+   16  ./virtualdtortest 
+   17  vi virtualdtortest.cpp
+   18  c++ -o virtualdtortest virtualdtortest.cpp 
+   19  ./virtualdtortest 
+   20  vi virtualdtortest.cpp
+   21  c++ -o virtualdtortest virtualdtortest.cpp 
+   22  ./virtualdtortest 
+   23  vi virtualdtortest.cpp
+   24  vi payroll2.h
+   25  c++ -o virtualdtortest virtualdtortest.cpp 
+   26  ./virtualdtortest 
+   27  vi virtualdtortest.cpp
+   28  c++ -o virtualdtortest virtualdtortest.cpp 
+   29  ./virtualdtortest 
+   30  vi virtualdtortest.cpp
+   31  cp virtualdtortest.cpp rttitest.cpp
+   32  vi rttitest.cpp 
+   33  vi payroll2.h
+   34  vi rttitest.cpp 
+   35  c++ -o rttitest rttitest.cpp 
+   36  vi rttitest.cpp 
+   37  c++ -o rttitest rttitest.cpp 
+   38  vi rttitest.cpp 
+   39  c++ -o rttitest rttitest.cpp 
+   40  ./rttitest 
+   41  vi rttitest.cpp 
+   42  history > cmd-21-05-2019-II.txt 

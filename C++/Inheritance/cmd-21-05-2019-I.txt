@@ -1,0 +1,37 @@
+    1  cd Foundations/C++/Classes/
+    2  ls
+    3  vi objreftest.cpp
+    4  vi objcasttest.cpp 
+    5  c++ -o objcasttest objcasttest.cpp 
+    6  vi objcasttest.cpp 
+    7  c++ -o objcasttest objcasttest.cpp 
+    8  vi objcasttest.cpp 
+    9  c++ -o objcasttest objcasttest.cpp 
+   10  vi objcasttest.cpp 
+   11  c++ -o objcasttest objcasttest.cpp 
+   12  ./objcasttest 
+   13  vi objcasttest.cpp 
+   14  cd ..
+   15  mkdir Inheritance
+   16  cd Inheritance/
+   17  vi payroll1.h
+   18  vi derivedclasstest.cpp
+   19  c++ -o derivedclasstest derivedclasstest.cpp 
+   20  ./derivedclasstest 
+   21  vi derivedclasstest.cpp
+   22  c++ -o derivedclasstest derivedclasstest.cpp 
+   23  ./derivedclasstest 
+   24  vi derivedclasstest.cpp
+   25  vi payroll1.h 
+   26  cp payroll1.h payroll2.h 
+   27  vi payroll2.h
+   28  cp derivedclasstest.cpp virtualfunctest.cpp
+   29  vi virtualfunctest.cpp 
+   30  c++ -o virtualfunctest virtualfunctest.cpp 
+   31  ./virtualfunctest 
+   32  vi virtualfunctest.cpp 
+   33  vi payroll2.h
+   34  cd ..
+   35  cd C++/Inheritance/
+   36  history
+   37  history > cmd-21-05-2019-I.txt
