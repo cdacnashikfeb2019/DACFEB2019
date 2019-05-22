@@ -1,0 +1,26 @@
+    1  vi middodtest.cpp
+    2  c++ -o middodtest middodtest.cpp 
+    3  ./middodtest 
+    4  vi middodtest.cpp
+    5  c++ -o middodtest middodtest.cpp 
+    6  ./middodtest 
+    7  vi middodtest.cpp
+    8  c++ -o middodtest middodtest.cpp 
+    9  vi middodtest.cpp
+   10  c++ -o middodtest middodtest.cpp 
+   11  vi middodtest.cpp
+   12  c++ -o middodtest middodtest.cpp 
+   13  vi middodtest.cpp
+   14  c++ -o middodtest middodtest.cpp 
+   15  vi middodtest.cpp
+   16  c++ -o middodtest middodtest.cpp 
+   17  ./middodtest 
+   18  vi middodtest.cpp
+   19  c++ -o middodtest middodtest.cpp 
+   20  ./middodtest 
+   21  cp middodtest.cpp mivitest.cpp
+   22  vi mivitest.cpp 
+   23  c++ -o mivitest mivitest.cpp 
+   24  ./mivitest 
+   25  vi mivitest.cpp 
+   26  history > cmd-22-05-2019-II.txt 

@@ -1,0 +1,36 @@
+    7  cd Foundations/C++/Inheritance/
+    8  vi banking1,h
+    9  mv banking1,h banking1.h
+   10  vi banking1.cpp
+   11  vi banking1.h
+   12  vi banking1.cpp
+   13  c++ -c banking1.cpp 
+   14  vi banking1.cpp
+   15  c++ -c banking1.cpp 
+   16  vi banking1.h
+   17  vi banking1.cpp
+   18  c++ -c banking1.cpp 
+   19  vi banking1.cpp
+   20  c++ -c banking1.cpp 
+   21  vi adttest.cpp
+   22  c++ -o adttest adttest.cpp banking1.o
+   23  ./adttest 
+   24  vi adttest.cpp
+   25  c++ -o adttest adttest.cpp banking1.o
+   26  ./adttest 
+   27  vi adttest.cpp
+   28  ./adttest 
+   29  cp banking1.h banking2.h
+   30  vi banking2.h
+   31  cp banking1.cpp banking2.cpp
+   32  vi banking2.cpp 
+   33  c++ -c banking2.cpp
+   34  vi adtmitest.cpp
+   35  c++ -o adtmitest adtmitest.cpp banking2.o
+   36  ./adtmitest 
+   37  vi adtmitest.cpp
+   38  c++ -o adtmitest adtmitest.cpp banking2.o
+   39  vi adtmitest.cpp
+   40  c++ -o adtmitest adtmitest.cpp banking2.o
+   41  ./adtmitest 
+   42  history > cmd-22-05-2019-I.txt
