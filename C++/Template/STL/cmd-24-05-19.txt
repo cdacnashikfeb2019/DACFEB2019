@@ -1,0 +1,1000 @@
+   80  javac OOP/payroll/SalesPerson.java 
+   81  cd OOP/
+   82  javac payroll/SalesPerson.java 
+   83  vi payroll/SalesPerson.java 
+   84  javac payroll/SalesPerson.java 
+   85  cp SubClassTest1.java SubClassTest2.java
+   86  vi SubClassTest2.java 
+   87  javac SubClassTest2.java
+   88  java SubClassTest2
+   89  vi SubClassTest2.java 
+   90  java SubClassTest2
+   91  javac SubClassTest2.java
+   92  java SubClassTest2
+   93  vi SubClassTest2.java 
+   94  javac SubClassTest2.java
+   95  java SubClassTest2
+   96  vi SubClassTest2.java 
+   97  javac SubClassTest2.java
+   98  java SubClassTest2
+   99  vi SubClassTest2.java 
+  100  javac SubClassTest2.java
+  101  java SubClassTest2
+  102  vi SubClassTest2.java 
+  103  javac SubClassTest2.java
+  104  vi SubClassTest2.java 
+  105  javac SubClassTest2.java
+  106  java SubClassTest2
+  107  vi SubClassTest2.java 
+  108  javac SubClassTest2.java
+  109  vi SubClassTest2.java 
+  110  ls
+  111  vi CastTest.java
+  112  vi CastTest.java 
+  113  javac CastTest.java
+  114  vi CastTest.java 
+  115  javac CastTest.java
+  116  vi CastTest.java 
+  117  javac CastTest.java
+  118  vi CastTest.java 
+  119  javac CastTest.java
+  120  java CastTest
+  121  cd ..
+  122  cp -r OOP/ ~/Shared/
+  123  cd OOP/
+  124  vi CastTest.java 
+  125  javac CastTest.java
+  126  java CastTest
+  127  vi CastTest.java 
+  128  javac CastTest.java
+  129  java CastTest
+  130  vi CastTest.java 
+  131  javac CastTest.java
+  132  java CastTest
+  133  vi CastTest.java 
+  134  rm CastTest.*
+  135  ls
+  136  vi SubClassTest2.java 
+  137  javac SubClassTest2.java 
+  138  vi SubClassTest2.java 
+  139  javac SubClassTest2.java 
+  140  java SubClassTest2
+  141  vi SubClassTest2.java 
+  142  javac SubClassTest2.java 
+  143  java SubClassTest2
+  144  vi SubClassTest2.java 
+  145  javac SubClassTest2.java 
+  146  java SubClassTest2
+  147  vi SubClassTest2.java 
+  148  javac SubClassTest2.java 
+  149  java SubClassTest2
+  150  vi SubClassTest2.java 
+  151  javac SubClassTest2.java 
+  152  java SubClassTest2
+  153  vi SubClassTest2.java 
+  154  javac SubClassTest2.java 
+  155  vi SubClassTest2.java 
+  156  exit
+  157  cd Java/Fundamentals/
+  158  cd Language/OOP/
+  159  ls
+  160  vi Interval.java
+  161  javac Interval.java 
+  162  vi Interval.java
+  163  javac Interval.java 
+  164  vi Interval.java
+  165  javap -p java.lang.Object
+  166  vi Interval.java
+  167  javac Interval.java 
+  168  vi Interval.java
+  169  javac Interval.java 
+  170  vi Interval.java
+  171  javac Interval.java 
+  172  vi Interval.java
+  173  javac Interval.java
+  174  vi Interval.java
+  175  javac Interval.java
+  176  vi Interval.java
+  177  cd ..
+  178  cp -r OOP/ ~/Shared/
+  179  cd OOP/
+  180  vi SubClassTest2.java 
+  181  java SubClassTest2
+  182  vi SubClassTest2.java 
+  183  vi SubClassTest1.java 
+  184  java SubClassTest1
+  185  vi SubClassTest1.java 
+  186  java SubClassTest1
+  187  vi Interval.java 
+  188  javac Interval.java 
+  189  vi Interval.java 
+  190  javac Interval.java 
+  191  vi Interval.java 
+  192  javac Interval.java 
+  193  vi Interval.java 
+  194  exit
+  195  cd Java/Fundamentals/Language/OOP/
+  196  vi ObjectEqualityTest.java
+  197  javac ObjectEqualityTest.java 
+  198  java ObjectEqualityTest
+  199  vi ObjectEqualityTest.java
+  200  javac ObjectEqualityTest.java 
+  201  java ObjectEqualityTest
+  202  vi ObjectEqualityTest.java
+  203  javac ObjectEqualityTest.java 
+  204  java ObjectEqualityTest
+  205  vi ObjectEqualityTest.java
+  206  javap -p java.lang.Object
+  207  vi ObjectEqualityTest.java
+  208  java ObjectEqualityTest
+  209  vi ObjectEqualityTest.java
+  210  javac ObjectEqualityTest.java 
+  211  java ObjectEqualityTest
+  212  vi ObjectEqualityTest.java
+  213  java ObjectEqualityTest
+  214  vi ObjectEqualityTest.java
+  215  javac ObjectEqualityTest.java 
+  216  java ObjectEqualityTest
+  217  vi ObjectEqualityTest.java
+  218  javac ObjectEqualityTest.java 
+  219  java ObjectEqualityTest
+  220  vi ObjectEqualityTest.java
+  221  javac ObjectEqualityTest.java 
+  222  java ObjectEqualityTest
+  223  vi ObjectEqualityTest.java
+  224  javac ObjectEqualityTest.java 
+  225  java ObjectEqualityTest
+  226  vi ObjectEqualityTest.java
+  227  javac ObjectEqualityTest.java 
+  228  java ObjectEqualityTest
+  229  vi ObjectEqualityTest.java
+  230  javac ObjectEqualityTest.java 
+  231  java ObjectEqualityTest
+  232  vi ObjectEqualityTest.java
+  233  javac ObjectEqualityTest.java 
+  234  vi ObjectEqualityTest.java
+  235  javac ObjectEqualityTest.java 
+  236  java ObjectEqualityTest
+  237  vi ObjectEqualityTest.java
+  238  javac ObjectEqualityTest.java 
+  239  java ObjectEqualityTest
+  240  vi ObjectEqualityTest.java
+  241  java ObjectEqualityTest
+  242  vi ObjectEqualityTest.java
+  243  javac ObjectEqualityTest.java
+  244  java ObjectEqualityTest
+  245  javac ObjectEqualityTest.java
+  246  vi ObjectEqualityTest.java
+  247  java ObjectEqualityTest
+  248  vi ObjectEqualityTest.java
+  249  javac ObjectEqualityTest.java
+  250  java ObjectEqualityTest
+  251  vi ObjectEqualityTest.java
+  252  javac ObjectEqualityTest.java
+  253  java ObjectEqualityTest
+  254  vi payroll/SalesPerson.java 
+  255  javac payroll/*.java
+  256  vi payroll/SalesPerson.java 
+  257  javac payroll/*.java
+  258  vi payroll/SalesPerson.java 
+  259  javac payroll/*.java
+  260  javap -p java.lang.Object
+  261  vi ObjectEqualityTest.java 
+  262  javac ObjectEqualityTest.java 
+  263  java ObjectEqualityTest
+  264  vi ObjectEqualityTest.java 
+  265  javac ObjectEqualityTest.java 
+  266  vi ObjectEqualityTest.java 
+  267  javac ObjectEqualityTest.java 
+  268  java ObjectEqualityTest
+  269  vi ObjectEqualityTest.java 
+  270  exit
+  271  cd Java/Fundamentals/Language/OOP/
+  272  vi src/SavingsAccount.java 
+  273  javac -d . src/SavingsAccount.java 
+  274  vi AbstractClassTest.java 
+  275  javac  
+  276  vi AbstractClassTest.java 
+  277  javac AbstractClassTest.java 
+  278  ls Ab*.*
+  279  rm AbstarctClassTest.class 
+  280  javac AbstractClassTest.java 
+  281  vi AbstractClassTest.java 
+  282  javac AbstractClassTest.java 
+  283  vi AbstractClassTest.java 
+  284  javac AbstractClassTest.java 
+  285  java AbstractClassTest
+  286  vi AbstractClassTest.java 
+  287  javac AbstractClassTest.java 
+  288  vi AbstractClassTest.java 
+  289  javac AbstractClassTest.java 
+  290  java AbstractClassTest 2500
+  291  vi AbstractClassTest.java 
+  292  javap -c -p AbstractClassTest.class 
+  293  vi AbstractClassTest.java 
+  294  cd ..
+  295  cd OOP/
+  296  history > cmd-14-02-2019.txt
+  297  vi cmd-14-02-2019.txt 
+  298  rm cmd-14-02-2019.txt 
+  299  exit
+  300  cd Java/Fundamentals/Language/OOP/
+  301  ls
+  302  mkdir src
+  303  vi src/InsufficientFundsException.java
+  304  javac src/InsufficientFundsException.java 
+  305  ls 
+  306  ls src/
+  307  rm src/*.class
+  308  ls src/
+  309  ls
+  310  javac -d . src/InsufficientFundsException.java 
+  311  ls src/
+  312  ls
+  313  ls edu/met/banking/
+  314  vi src/InsufficientFundsException.java 
+  315  vi src/IllegalTransferException.java
+  316  javac -d . src/IllegalTransferException.java 
+  317  vi src/Account.java
+  318  javac -d . src/Account.java 
+  319  vi src/Account.java
+  320  javac -d . src/Account.java 
+  321  vi src/Account.java
+  322  javac -d . src/Account.java 
+  323  vi src/Account.java
+  324  javac -d . src/Account.java 
+  325  vi src/Account.java
+  326  javac -d . src/Account.java 
+  327  vi src/Account.java
+  328  javac -d . src/Account.java 
+  329  vi src/Account.java
+  330  javac -d . src/Account.java 
+  331  vi src/Account.java
+  332  vi src/InsufficientFundsException.java 
+  333  vi src/IllegalTransferException.java 
+  334  vi src/Account.java 
+  335  javac -d . src/Account.java 
+  336  vi src/SavingsAccount.java
+  337  javac -d . src/SavingsAccount.java 
+  338  vi src/SavingsAccount.java
+  339  javac -d . src/SavingsAccount.java 
+  340  vi src/SavingsAccount.java
+  341  javac -d . src/SavingsAccount.java 
+  342  vi src/SavingsAccount.java
+  343  javac -d . src/SavingsAccount.java 
+  344  vi src/SavingsAccount.java
+  345  javac -d . src/SavingsAccount.java 
+  346  vi src/SavingsAccount.java
+  347  javac -d . src/SavingsAccount.java 
+  348  vi src/SavingsAccount.java
+  349  vi src/Account.java
+  350  vi src/SavingsAccount.java
+  351  vi src/Account.java
+  352  vi src/SavingsAccount.java
+  353  vi src/CurrentAccount.java
+  354  javac -d . src/CurrentAccount.java 
+  355  vi src/CurrentAccount.java
+  356  javac -d . src/CurrentAccount.java 
+  357  vi src/Banker.java
+  358  vi src/SavingsAccount.java 
+  359  vi AbstractClassTest.java
+  360  javac AbstractClassTest.java 
+  361  vi AbstractClassTest.java
+  362  javac AbstractClassTest.java 
+  363  vi AbstractClassTest.java
+  364  javac AbstractClassTest.java 
+  365  vi AbstractClassTest.java
+  366  ls
+  367  vi AbstractClassTest.java
+  368  vi src/Banker.java 
+  369  javac -d . src/Banker.java 
+  370  vi src/Banker.java 
+  371  javac -d . src/Banker.java 
+  372  vi src/Banker.java 
+  373  javac -d . src/Banker.java 
+  374  vi src/Banker.java 
+  375  javac -d . src/Banker.java 
+  376  vi src/Banker.java 
+  377  javac -d . src/Banker.java 
+  378  javap -c edu.met.banking.Banker.class
+  379  javap -c edu/met/banking/Banker.class
+  380  javap -p -c edu/met/banking/Banker.class
+  381  vi src/Banker.java 
+  382  javac -d . src/Banker.java 
+  383  vi src/Banker.java 
+  384  javac -d . src/Banker.java 
+  385  javap -p -c edu/met/banking/Banker.class
+  386  vi src/Banker.java 
+  387  javac -d . src/Banker.java 
+  388  vi src/Banker.java 
+  389  javac -d . src/Banker.java 
+  390  vi src/Banker.java 
+  391  javap -p -c java.lang.System
+  392  javap -p java.lang.System
+  393  vi src/Banker.java 
+  394  vi src/Account.java 
+  395  history
+  396  history > cmd-14-05-2019.txt
+  397  vi cmd-14-05-2019.txt 
+  398  cd ..
+  399  cp -r OOP/ ~/Shared/
+  400  cd OOP/
+  401  vi src/CurrentAccount.java 
+  402  vi src/SavingsAccount.java 
+  403  javac -d . src/SavingsAccount.java 
+  404  vi src/SavingsAccount.java 
+  405  vi src/CurrentAccount.java 
+  406  vi src/SavingsAccount.java 
+  407  vi src/Banker.java 
+  408  vi src/SavingsAccount.java 
+  409  vi src/Account.java 
+  410  vi src/SavingsAccount.java 
+  411  vi src/CurrentAccount.java 
+  412  vi src/SavingsAccount.java 
+  413  vi src/Profitable.java
+  414  javac src/Profitable.java 
+  415  rm src/Profitable.class 
+  416  javac -d . src/Profitable.java 
+  417  vi src/SavingsAccount.java 
+  418  javac -d . src/SavingsAccount.java 
+  419  vi src/SavingsAccount.java 
+  420  javac -d . src/SavingsAccount.java 
+  421  vi InterfaceTest.java 
+  422  java AbstractClassTest
+  423  cd ..
+  424  cp -r OOP/ ~/Shared/
+  425  exit
+  426  cd Java/Fundamentals/Language/OOP/
+  427  vi AbstractClassTest.java 
+  428  vi InterfaceTest.java
+  429  javac InterfaceTest.java 
+  430  vi InterfaceTest.java
+  431  javac InterfaceTest.java 
+  432  java InterfaceTest
+  433  vi InterfaceTest.java
+  434  javac InterfaceTest.java 
+  435  vi AbstractClassTest.java 
+  436  vi InterfaceTest.java
+  437  vi AbstractClassTest.java 
+  438  javac AbstractClassTest.java 
+  439  java AbstractClassTest 2500
+  440  java AbstractClassTest 
+  441  vi AbstractClassTest.java 
+  442  javac AbstractClassTest.java 
+  443  java AbstractClassTest 2500
+  444  java AbstractClassTest 
+  445  java AbstractClassTest 25000
+  446  java AbstractClassTest 2500
+  447  vi src/Profitable.java 
+  448  javac -d . src/Profitable.java 
+  449  vi src/Profitable.java 
+  450  javac -d . src/Profitable.java 
+  451  vi src/Profitable.java 
+  452  javap -p edu/met/banking/Profitable.class 
+  453  vi src/Profitable.java 
+  454  javac -d . src/Profitable.java 
+  455  javap -p edu/met/banking/Profitable.class 
+  456  vi src/Profitable.java 
+  457  vi src/Account.java 
+  458  javac -d . src/*.java
+  459  vi src/Account.java 
+  460  javac -d . src/*.java
+  461  vi src/Account.java 
+  462  javac -d . src/*.java
+  463  exit
+  464  vi InterfaceTest.java 
+  465  javac InterfaceTest.java
+  466  java InterfaceTest
+  467  vi InterfaceTest.java 
+  468  mv InterfaceTest.java InterfaceTest1.java
+  469  rm InterfaceTest.class 
+  470  vi InterfaceTest1.java 
+  471  javac InterfaceTest1.java 
+  472  vi InterfaceTest2.java
+  473  javac InterfaceTest2.java 
+  474  vi InterfaceTest2.java
+  475  javac InterfaceTest2.java 
+  476  vi InterfaceTest2.java
+  477  java -version
+  478  vi InterfaceTest2.java
+  479  javac InterfaceTest2.java 
+  480  vi InterfaceTest2.java
+  481  javac InterfaceTest2.java 
+  482  vi InterfaceTest2.java
+  483  java InterfaceTest2
+  484  javac -source 1.7 InterfaceTest2.java 
+  485  vi InterfaceTest2.java
+  486  javac InterfaceTest2.java
+  487  cd ..
+  488  cp -r 
+  489  cp -r OOP/ ~/Shared/
+  490  exit
+  491  vi ~/.vimrc
+  492  cd Foundations/
+  493  ls
+  494  mkdir C++
+  495  cd C++/
+  496  mkdir Functions
+  497  cd Functions/
+  498  vi namespacetest1.cpp
+  499  c++ -o namespacetest1 namespacetest1.cpp
+  500  ./namespacetest1 
+  501  echo $?
+  502  vi namespacetest1.cpp
+  503  c++ -o namespacetest1 namespacetest1.cpp
+  504  ./namespacetest1 
+  505  echo $?
+  506  vi namespacetest1.cpp
+  507  c++ -o namespacetest1 namespacetest1.cpp
+  508  ./namespacetest1 
+  509  echo $?
+  510  vi namespacetest1.cpp
+  511  c++ -o namespacetest1 namespacetest1.cpp
+  512  ./namespacetest1 
+  513  echo $?
+  514  vi namespacetest1.cpp
+  515  c++ -o namespacetest1 namespacetest1.cpp
+  516  vi namespacetest1.cpp
+  517  c++ -o namespacetest1 namespacetest1.cpp
+  518  ./namespacetest1 
+  519  echo $?
+  520  vi namespacetest1.cpp
+  521  objdump -t namespacetest1
+  522  vi namespacetest1.cpp
+  523  vi people.h
+  524  vi namespacetest2.cpp
+  525  c++ namespacetest2 namespacetest2.cpp 
+  526  c++ -o namespacetest2 namespacetest2.cpp 
+  527  ./namespacetest2
+  528  echo $?
+  529  c++filt _ZN4Jack4Jill3ageE
+  530  c++filt _ZN4Jack4Jill3ageF
+  531  objdump -t namespacetest2
+  532  vi namespacetest2.cpp
+  533  c++ -o namespacetest2 namespacetest2.cpp 
+  534  ./namespacetest2
+  535  echo $?
+  536  vi namespacetest2.cpp
+  537  c++ -o namespacetest2 namespacetest2.cpp 
+  538  vi namespacetest2.cpp
+  539  c++ -o namespacetest2 namespacetest2.cpp 
+  540  ./namespacetest2
+  541  echo $?
+  542  vi namespacetest2.cpp
+  543  vi stdnamespacetest.cpp
+  544  c++ -o stdnamespacetest stdnamespacetest.cpp 
+  545  ./stdnamespacetest 
+  546  vi stdnamespacetest.cpp
+  547  vi power.h
+  548  vi functest.cpp
+  549  mv power.h power.cpp
+  550  vi functest.cpp
+  551  c++ -c power.cpp 
+  552  c++ -o functest functest.cpp
+  553  c++ -o functest functest.cpp power.o
+  554  vi functest.cpp
+  555  c++ -o functest functest.cpp power.o
+  556  ./functest 
+  557  vi functest.cpp
+  558  c++ -o functest functest.cpp power.o
+  559  vi functest.cpp
+  560  c++ -o functest functest.cpp power.o
+  561  vi functest.cpp
+  562  c++ -o functest functest.cpp power.o
+  563  vi functest.cpp
+  564  c++ -o functest functest.cpp power.o
+  565  ./functest 
+  566  vi power.cpp 
+  567  objdump -t power.o
+  568  vi functest.cpp
+  569  c++filt _ZN11Calculation9CalculateElsPi
+  570  cd ..
+  571  cd C++/
+  572  ls
+  573  cd Functions/
+  574  history > cmd-18-05-2019.txt
+  575  vi cmd-18-05-2019.txt 
+  576  cd ..
+  577  cp -r C++/ ~/Shared/
+  578  ls
+  579  cd C++/
+  580  ls
+  581  cd Functions/
+  582  ls
+  583  ll /SoftDev/Foundations/Fundamentals/C/Basics/
+  584  vi /SoftDev/Foundations/Fundamentals/C/Basics/myproc.c
+  585  cp /SoftDev/Foundations/Fundamentals/C/Basics/myproc.o .
+  586  vi cfunctest.cpp
+  587  c++ -o cfunctest cfunctest.cpp 
+  588  vi cfunctest.cpp
+  589  c++ -o cfunctest cfunctest.cpp myproc.o 
+  590  objdump -t myproc.o 
+  591  vi cfunctest.cpp
+  592  c++ -o cfunctest cfunctest.cpp myproc.o 
+  593  ./cfunctest 
+  594  vi defargtest.cpp
+  595  c++ -o defargtest defargtest.cpp 
+  596  ./defargtest 
+  597  vi defargtest.cpp
+  598  cp defargtest.cpp funcovldtest.cpp
+  599  vi funcovldtest.cpp 
+  600  c++ -o funcovldtest funcovldtest.cpp 
+  601  vi funcovldtest.cpp 
+  602  c++ -o funcovldtest funcovldtest.cpp 
+  603  ./funcovldtest 
+  604  vi funcovldtest.cpp 
+  605  c++ -o funcovldtest funcovldtest.cpp 
+  606  ./funcovldtest 
+  607  vi funcovldtest.cpp 
+  608  c++ -o funcovldtest funcovldtest.cpp 
+  609  ./funcovldtest 
+  610  vi funcovldtest.cpp 
+  611  vi reftypetest.cpp
+  612  c++ -o reftypetest reftypetest.cpp 
+  613  ./reftypetest 
+  614  vi reftypetest.cpp
+  615  c++ -o reftypetest reftypetest.cpp 
+  616  ./reftypetest 
+  617  vi reftypetest.cpp
+  618  c++ -o reftypetest reftypetest.cpp 
+  619  ./reftypetest 
+  620  vi reftypetest.cpp
+  621  ls
+  622  cd Functions/
+  623  ls
+  624  vi throwtest.cpp
+  625  c++ -o throwtest throwtest.cpp 
+  626  ./throwtest 
+  627  vi throwtest.cpp
+  628  c++ -o throwtest throwtest.cpp 
+  629  ./throwtest 
+  630  vi throwtest.cpp
+  631  c++ -o throwtest throwtest.cpp 
+  632  ./throwtest 
+  633  vi throwtest.cpp
+  634  cp throwtest.cpp catchtest1.cpp
+  635  vi catchtest1.cpp 
+  636  c++ -o catchtest1 catchtest1.cpp 
+  637  ./catchtest1 
+  638  vi catchtest1.cpp 
+  639  c++ -o catchtest1 catchtest1.cpp 
+  640  ./catchtest1 
+  641  vi catchtest1.cpp 
+  642  cp throwtest.cpp catchtest2.cpp
+  643  vi catchtest2.cpp 
+  644  c++ -o catchtest2 catchtest2.cpp
+  645  ./catchtest2
+  646  cd ..
+  647  mkdir Classes
+  648  cd Classes/
+  649  vi classtest1.cpp
+  650  c++ -o classtest1 classtest1.cpp 
+  651  vi classtest1.cpp
+  652  c++ -o classtest1 classtest1.cpp 
+  653  ./classtest1 
+  654  vi classtest1.cpp
+  655  c++ -o classtest1 classtest1.cpp 
+  656  ./classtest1 
+  657  cp classtest1.cpp classtest2.cpp
+  658  vi classtest2.cpp 
+  659  c++ -o classtest2 classtest2.cpp 
+  660  ./classtest2
+  661  vi 
+  662  cp classtest2.cpp ctortest.cpp
+  663  vi ctortest.cpp 
+  664  c++ -o ctortest ctortest.cpp 
+  665  ./ctortest 
+  666  vi ctortest.cpp 
+  667  c++ -o ctortest ctortest.cpp 
+  668  ./ctortest 
+  669  vi ctortest.cpp 
+  670  c++ -o ctortest ctortest.cpp 
+  671  ./ctortest 
+  672  vi ctortest.cpp 
+  673  c++ -o ctortest ctortest.cpp 
+  674  ./ctortest 
+  675  vi ctortest.cpp 
+  676  cp ctortest.cpp dtortest.cpp
+  677  vi dtortest.cpp 
+  678  c++ -o dtortest dtortest.cpp 
+  679  vi dtortest.cpp 
+  680  c++ -o dtortest dtortest.cpp 
+  681  ./dtortest 
+  682  vi dtortest.cpp 
+  683  c++ -o dtortest dtortest.cpp 
+  684  ./dtortest 
+  685  vi dtortest.cpp 
+  686  c++ -o dtortest dtortest.cpp 
+  687  ./dtortest 
+  688  vi dtortest.cpp 
+  689  c++ -o dtortest dtortest.cpp 
+  690  ./dtortest 
+  691  vi dtortest.cpp 
+  692  c++ -o dtortest dtortest.cpp 
+  693  vi dtortest.cpp 
+  694  c++ -o dtortest dtortest.cpp 
+  695  vi dtortest.cpp 
+  696  c++ -o dtortest dtortest.cpp 
+  697  ./dtortest 
+  698  vi dtortest.cpp 
+  699  c++ -o dtortest dtortest.cpp 
+  700  ./dtortest 
+  701  vi dtortest.cpp 
+  702  c++ -o dtortest dtortest.cpp 
+  703  ./dtortest 
+  704  vi dtortest.cpp 
+  705  cd ..
+  706  cp -r C++/ ~/Shared/
+  707  exit
+  708  exit
+  709  cd Foundations/C++/Classes/
+  710  ls
+  711  cp classtest2.cpp opovldtest1.cpp
+  712  vi opovldtest1.cpp 
+  713  c++ -o opovldtest1 opovldtest1.cpp 
+  714  ./opovldtest1 
+  715  vi opovldtest1.cpp 
+  716  c++ -o opovldtest1 opovldtest1.cpp 
+  717  ./opovldtest1 
+  718  vi opovldtest1.cpp 
+  719  c++ -o opovldtest1 opovldtest1.cpp 
+  720  ./opovldtest1 
+  721  vi opovldtest1.cpp 
+  722  c++ -o opovldtest1 opovldtest1.cpp 
+  723  vi opovldtest1.cpp 
+  724  c++ -o opovldtest1 opovldtest1.cpp 
+  725  vi opovldtest1.cpp 
+  726  c++ -o opovldtest1 opovldtest1.cpp 
+  727  ./opovldtest1 
+  728  vi opovldtest1.cpp 
+  729  c++ -o opovldtest1 opovldtest1.cpp 
+  730  ./opovldtest1 
+  731  vi opovldtest1.cpp 
+  732  c++ -o opovldtest1 opovldtest1.cpp 
+  733  ./opovldtest1 
+  734  vi opovldtest1.cpp 
+  735  cp opovldtest1.cpp opovldtest2.cpp
+  736  vi opovldtest2.cpp
+  737  c++ -o opovldtest2 opovldtest2.cpp 
+  738  ./opovldtest2
+  739  vi opovldtest2.cpp
+  740  c++ -o opovldtest2 opovldtest2.cpp 
+  741  ./opovldtest2
+  742  vi opovldtest2.cpp
+  743  cp newdelobjtest.cpp objcopytest.cpp
+  744  vi objcopytest.cpp 
+  745  c++ -o objcopytest objcopytest.cpp 
+  746  ./objcopytest 
+  747  vi objcopytest.cpp 
+  748  c++ -o objcopytest objcopytest.cpp 
+  749  ./objcopytest 
+  750  vi objcopytest.cpp 
+  751  c++ -o objcopytest objcopytest.cpp 
+  752  ./objcopytest 
+  753  vi objcopytest.cpp 
+  754  c++ -o objcopytest objcopytest.cpp 
+  755  ./objcopytest 
+  756  vi objcopytest.cpp 
+  757  c++ -o objcopytest objcopytest.cpp 
+  758  ./objcopytest 
+  759  vi objcopytest.cpp 
+  760  c++ -o objcopytest objcopytest.cpp 
+  761  ./objcopytest 
+  762  vi objcopytest.cpp 
+  763  c++ -o objcopytest objcopytest.cpp 
+  764  ./objcopytest 
+  765  vi objcopytest.cpp 
+  766  c++ -o objcopytest objcopytest.cpp 
+  767  ./objcopytest 
+  768  vi objcopytest.cpp 
+  769  cp newdelobjtest.cpp objcasttest.cpp
+  770  vi objcasttest.cpp 
+  771  c++ -o objcasttest objcasttest.cpp 
+  772  vi objcasttest.cpp 
+  773  c++ -o objcasttest objcasttest.cpp 
+  774  ./objcasttest 
+  775  vi objcasttest.cpp 
+  776  c++ -o objcasttest objcasttest.cpp 
+  777  vi objcasttest.cpp 
+  778  c++ -o objcasttest objcasttest.cpp 
+  779  ./objcasttest 
+  780  vi objcasttest.cpp 
+  781  c++ -o objcasttest objcasttest.cpp 
+  782  vi objcasttest.cpp 
+  783  c++ -o objcasttest objcasttest.cpp 
+  784  ./objcasttest 
+  785  vi objcasttest.cpp 
+  786  history 
+  787  history > cmd-20-05-2019-II.txt
+  788  vi cmd-20-05-2019-II.txt 
+  789  cd ..
+  790  cp -r Classes/ ~/Shared/
+  791  exit
+  792  cd Foundations/C++/Classes/
+  793  ls
+  794  vi objreftest.cpp
+  795  vi objcasttest.cpp 
+  796  c++ -o objcasttest objcasttest.cpp 
+  797  vi objcasttest.cpp 
+  798  c++ -o objcasttest objcasttest.cpp 
+  799  vi objcasttest.cpp 
+  800  c++ -o objcasttest objcasttest.cpp 
+  801  vi objcasttest.cpp 
+  802  c++ -o objcasttest objcasttest.cpp 
+  803  ./objcasttest 
+  804  vi objcasttest.cpp 
+  805  cd ..
+  806  mkdir Inheritance
+  807  cd Inheritance/
+  808  vi payroll1.h
+  809  vi derivedclasstest.cpp
+  810  c++ -o derivedclasstest derivedclasstest.cpp 
+  811  ./derivedclasstest 
+  812  vi derivedclasstest.cpp
+  813  c++ -o derivedclasstest derivedclasstest.cpp 
+  814  ./derivedclasstest 
+  815  vi derivedclasstest.cpp
+  816  vi payroll1.h 
+  817  cp payroll1.h payroll2.h 
+  818  vi payroll2.h
+  819  cp derivedclasstest.cpp virtualfunctest.cpp
+  820  vi virtualfunctest.cpp 
+  821  c++ -o virtualfunctest virtualfunctest.cpp 
+  822  ./virtualfunctest 
+  823  vi virtualfunctest.cpp 
+  824  vi payroll2.h
+  825  cd ..
+  826  cd C++/Inheritance/
+  827  history
+  828  history > cmd-21-05-2019-I.txt
+  829  cd ..
+  830  cp -r C++/ ~/Shared/
+  831  exit
+  832  exit
+  833  exit
+  834  su
+  835  cd@c
+  836  su
+  837  su
+  838  vi middodtest.cpp
+  839  c++ -o middodtest middodtest.cpp 
+  840  ./middodtest 
+  841  vi middodtest.cpp
+  842  c++ -o middodtest middodtest.cpp 
+  843  ./middodtest 
+  844  vi middodtest.cpp
+  845  c++ -o middodtest middodtest.cpp 
+  846  vi middodtest.cpp
+  847  c++ -o middodtest middodtest.cpp 
+  848  vi middodtest.cpp
+  849  c++ -o middodtest middodtest.cpp 
+  850  vi middodtest.cpp
+  851  c++ -o middodtest middodtest.cpp 
+  852  vi middodtest.cpp
+  853  c++ -o middodtest middodtest.cpp 
+  854  ./middodtest 
+  855  vi middodtest.cpp
+  856  c++ -o middodtest middodtest.cpp 
+  857  ./middodtest 
+  858  cp middodtest.cpp mivitest.cpp
+  859  vi mivitest.cpp 
+  860  c++ -o mivitest mivitest.cpp 
+  861  ./mivitest 
+  862  vi mivitest.cpp 
+  863  history > cmd-22-05-2019-II.txt 
+  864  cd ..
+  865  cp C++ ~/Shared/
+  866  cp -r C++ ~/Shared/
+  867  cd ..
+  868  exit
+  869  cd Foundations/C++/Inheritance/
+  870  vi banking1,h
+  871  mv banking1,h banking1.h
+  872  vi banking1.cpp
+  873  vi banking1.h
+  874  vi banking1.cpp
+  875  c++ -c banking1.cpp 
+  876  vi banking1.cpp
+  877  c++ -c banking1.cpp 
+  878  vi banking1.h
+  879  vi banking1.cpp
+  880  c++ -c banking1.cpp 
+  881  vi banking1.cpp
+  882  c++ -c banking1.cpp 
+  883  vi adttest.cpp
+  884  c++ -o adttest adttest.cpp banking1.o
+  885  ./adttest 
+  886  vi adttest.cpp
+  887  c++ -o adttest adttest.cpp banking1.o
+  888  ./adttest 
+  889  vi adttest.cpp
+  890  ./adttest 
+  891  cp banking1.h banking2.h
+  892  vi banking2.h
+  893  cp banking1.cpp banking2.cpp
+  894  vi banking2.cpp 
+  895  c++ -c banking2.cpp
+  896  vi adtmitest.cpp
+  897  c++ -o adtmitest adtmitest.cpp banking2.o
+  898  ./adtmitest 
+  899  vi adtmitest.cpp
+  900  c++ -o adtmitest adtmitest.cpp banking2.o
+  901  vi adtmitest.cpp
+  902  c++ -o adtmitest adtmitest.cpp banking2.o
+  903  ./adtmitest 
+  904  history > cmd-22-05-2019-I.txt
+  905  cp cmd-22-05-2019-I.txt ~/Shared/
+  906  cd ..
+  907  cp C++ ~/Shared/
+  908  cp -r C++ ~/Shared/
+  909  exit
+  910  cd Foundations/C++/Inheritance/
+  911  ls
+  912  cd Foundations/C++
+  913  ll
+  914  mv Tempelates/ Templates
+  915  mv ~/Shared/C++/Tempelates/ ~/Shared/C++/Templates/
+  916  vi cpptest.cpp
+  917  c++ -save-temps cpptest.cpp
+  918  vi cpptest.s
+  919  vi cpptest.cpp 
+  920  c++ -save-temps cpptest.cpp
+  921  vi cpptest.s
+  922  cd Foundations/C++/
+  923  mkdir Tempelates
+  924  cd Tempelates/
+  925  mkdir Basics
+  926  cd Basics/
+  927  vi functmplttest1.cpp
+  928  c++ -o functmplttest1 functmplttest1.cpp 
+  929  ./functmplttest1 
+  930  vi functmplttest1.cpp
+  931  c++ -o functmplttest1 functmplttest1.cpp 
+  932  vi functmplttest1.cpp
+  933  c++ -o functmplttest1 functmplttest1.cpp 
+  934  ./functmplttest1 
+  935  vi functmplttest1.cpp
+  936  c++ -o functmplttest1 functmplttest1.cpp 
+  937  vi functmplttest1.cpp
+  938  c++ -o functmplttest1 functmplttest1.cpp 
+  939  ./functmplttest1 
+  940  objjdump -t functmplttest1
+  941  objdump -t functmplttest1
+  942  vi functmplttest1.cpp
+  943  vi functmplttest2.cpp
+  944  c++ -o functmplttest2 functmplttest2.cpp 
+  945  ./functmplttest2
+  946  vi functmplttest2.cpp
+  947  c++ -o functmplttest2 functmplttest2.cpp 
+  948  ./functmplttest2
+  949  vi functmplttest2.cpp
+  950  c++ -o functmplttest2 functmplttest2.cpp 
+  951  ./functmplttest2
+  952  cp ../../Classes/newdelobjtest.cpp interval.h
+  953  vi interval.h 
+  954  vi functmplttest2.cpp 
+  955  c++ -o functmplttest2 functmplttest2.cpp 
+  956  vi functmplttest2.cpp 
+  957  vi interval.h 
+  958  c++ -o functmplttest2 functmplttest2.cpp 
+  959  ./functmplttest2
+  960  vi classtmplttest1.cpp
+  961  c++ -o classtmplttest1 classtmplttest1.cpp 
+  962  ./classtmplttest1 
+  963  vi classtmplttest1.cpp
+  964  history > cmd-23-05-19-I.txt
+  965  cd ..
+  966  cp -r C++ ~/Shared/
+  967  cd C++/
+  968  cd Templates/
+  969  cd Basics/
+  970  vi classtmplttest1.cpp
+  971  cp classtmplttest1.cpp classtmplttest2.cpp
+  972  vi classtmplttest2.cpp 
+  973  c++ -o classtmplttest2 classtmplttest2.cpp 
+  974  ./classtmplttest2
+  975  vi classtmplttest2.cpp 
+  976  c++ -o classtmplttest2 classtmplttest2.cpp 
+  977  ./classtmplttest2
+  978  vi classtmplttest2.cpp 
+  979  cp classtmplttest1.cpp classtmplttest3.cpp
+  980  vi classtmplttest3.cpp 
+  981  cp classtmplttest2.cpp classtmplttest3.cpp
+  982  vi classtmplttest3.cpp 
+  983  c++ -o classtmplttest3 classtmplttest3.cpp 
+  984  ./classtmplttest3
+  985  vi classtmplttest3.cpp 
+  986  c++ -o classtmplttest3 classtmplttest3.cpp 
+  987  ./classtmplttest3
+  988  vi classtmplttest3.cpp 
+  989  c++ -o classtmplttest3 classtmplttest3.cpp 
+  990  ./classtmplttest3
+  991  vi classtmplttest3.cpp 
+  992  cd ..
+  993  cd Basics/
+  994  history > cmd-23-05-19-II.txt 
+  995  cd ..
+  996  cp C++ ~/Shared/
+  997  cp -r C++ ~/Shared/
+  998  exit
+  999  cd Foundations/C++/
+ 1000  ls
+ 1001  cd Templates/
+ 1002  mkdir STL
+ 1003  cd STL/
+ 1004  cp ../Basics/interval.h .
+ 1005  vi vectortest.cpp
+ 1006  c++ -o vectortest vectortest.cpp 
+ 1007  ./vectortest 
+ 1008  cp vectortest.cpp listtest.cpp
+ 1009  vi listtest.cpp 
+ 1010  c++ -o listtest listtest.cpp 
+ 1011  vi listtest.cpp 
+ 1012  c++ -o listtest listtest.cpp 
+ 1013  ./listtest 
+ 1014  cp vectortest.cpp dequetest.cpp
+ 1015  vi dequetest.cpp 
+ 1016  c++ -o dequetest dequetest.cpp 
+ 1017  ./dequetest 
+ 1018  cp vectortest.cpp settest.cpp
+ 1019  vi settest.cpp 
+ 1020  c++ -o settest settest.cpp 
+ 1021  vi interval.h 
+ 1022  c++ -o settest settest.cpp 
+ 1023  ./settest 
+ 1024  vi interval.h 
+ 1025  vi settest.cpp
+ 1026  c++ -o settest settest.cpp 
+ 1027  ./settest 
+ 1028  cp settest.cpp maptest.cpp
+ 1029  vi maptest.cpp 
+ 1030  c++ -o maptest maptest.cpp 
+ 1031  ./maptest 
+ 1032  ./maptest tuesday
+ 1033  vi maptest.cpp 
+ 1034  c++ -o maptest maptest.cpp 
+ 1035  ./maptest 
+ 1036  ./maptest tuesday
+ 1037  ./maptest monday
+ 1038  ./maptest monday tuesday
+ 1039  ./maptest sunday
+ 1040  cp listtest.cpp stacktest.cpp
+ 1041  vi stacktest.cpp 
+ 1042  c++ -o stacktest stacktest.cpp 
+ 1043  ./stacktest 
+ 1044  vi stacktest.cpp 
+ 1045  c++ -o stacktest stacktest.cpp 
+ 1046  ./stacktest 
+ 1047  vi stacktest.cpp 
+ 1048  cp stacktest.cpp queuetest.cpp
+ 1049  vi queuetest.cpp 
+ 1050  c++ -o queuetest queuetest.cpp 
+ 1051  ./queuetest 
+ 1052  vi queuetest.cpp 
+ 1053  c++ -o queuetest queuetest.cpp 
+ 1054  ./queuetest 
+ 1055  cp queuetest.cpp priorityqueuetest.cpp
+ 1056  vi priorityqueuetest.cpp 
+ 1057  c++ -o priorityqueuetest priorityqueuetest.cpp 
+ 1058  ./priorityqueuetest 
+ 1059  vi priorityqueuetest.cpp 
+ 1060  c++ -o priorityqueuetest priorityqueuetest.cpp 
+ 1061  ./priorityqueuetest 
+ 1062  cp vectortest.cpp sorttest.cpp
+ 1063  vi sorttest.cpp 
+ 1064  c++ -o sorttest sorttest.cpp 
+ 1065  ./sorttest 
+ 1066  vi sorttest.cpp 
+ 1067  c++ -o sorttest sorttest.cpp 
+ 1068  ./sorttest 
+ 1069  vi sorttest.cpp 
+ 1070  c++ -o sorttest sorttest.cpp 
+ 1071  ./sorttest 
+ 1072  vi sorttest.cpp 
+ 1073  cp sorttest.cpp copytest.cpp
+ 1074  vi copytest.cpp 
+ 1075  c++ -o copytest copytest.cpp 
+ 1076  vi copytest.cpp 
+ 1077  c++ -o copytest copytest.cpp 
+ 1078  ./copytest 
+ 1079  history > cmd-24-05-19.txt
