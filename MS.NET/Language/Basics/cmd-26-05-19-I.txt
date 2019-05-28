@@ -1,0 +1,279 @@
+
+E:\>cd MS.NET\Fundamentals\Language
+
+E:\MS.NET\Fundamentals\Language>subst s: .
+
+E:\MS.NET\Fundamentals\Language>s:
+
+S:\>md Basics
+
+S:\>cd Basics
+
+S:\Basics>notepad methodtest1.cs
+
+S:\Basics>csc methodtest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest1.exe
+Average of two values = 24.85
+
+S:\Basics>csc methodtest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+methodtest1.cs(13,61): error CS1501: No overload for method 'Average'
+takes 3 arguments
+
+S:\Basics>csc methodtest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest1.exe
+Average of two values = 24.85
+Average of three values = 24.3
+
+S:\Basics>csc methodtest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+methodtest1.cs(16,60): error CS1501: No overload for method 'Average'
+takes 5 arguments
+
+S:\Basics>csc methodtest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest1.exe
+Average of two values = 24.85
+Average of three values = 24.3
+Average of five values = 24.64
+
+S:\Basics>notepad methodtest2.cs
+
+S:\Basics>csc methodtest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest2.exe abcd
+
+Unhandled Exception: System.FormatException: Input string was not in a
+ correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, Nu
+mberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at Program.Main(String[] args)
+
+S:\Basics>methodtest2.exe
+
+Unhandled Exception: System.IndexOutOfRangeException: Index was outsid
+e the bounds of the array.
+   at Program.Main(String[] args)
+
+S:\Basics>csc methodtest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest2.exe
+Usage: methodtest2 amount-to-invest
+
+S:\Basics>methodtest2.exe abcd
+Error: amount-to-invest is not a number
+
+S:\Basics>csc methodtest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest2.exe 75000
+Income in gold scheme: 14107.51
+Income in silver scheme: 19685.75
+Income in bronze scheme: 9364.79
+
+S:\Basics>notepad methodtest3.cs
+
+S:\Basics>csc methodtest3.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest3.exe
+Usage: methodtest3 first-number second-number
+
+S:\Basics>methodtest3.exe 23.4
+Usage: methodtest3 first-number second-number
+
+S:\Basics>methodtest3.exe 23.4 abcd
+Usage: methodtest3 first-number second-number
+
+S:\Basics>methodtest3.exe 23.4 32.5
+Original values: 23.4, 32.5
+
+S:\Basics>csc methodtest3.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest3.exe 23.4 32.5
+Original values = 23.4, 32.5
+Swapped values = 23.4, 32.5
+
+S:\Basics>csc methodtest3.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+methodtest3.cs(19,9): error CS1620: Argument 1 must be passed with the
+ 'ref' keyword
+methodtest3.cs(19,12): error CS1620: Argument 2 must be passed with th
+e 'ref' keyword
+
+S:\Basics>csc methodtest3.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest3.exe
+Usage: methodtest3 first-number second-number
+
+S:\Basics>methodtest3.exe 23.4 32.5
+Original values = 23.4, 32.5
+Swapped values = 32.5, 23.4
+
+S:\Basics>csc methodtest3.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+methodtest3.cs(29,14): error CS0266: Cannot implicitly convert type 'd
+ouble' to 'float'. An explicit conversion exists (are you missing a ca
+st?)
+methodtest3.cs(29,32): error CS0165: Use of unassigned local variable
+'d'
+
+S:\Basics>csc methodtest3.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+methodtest3.cs(29,32): error CS0165: Use of unassigned local variable
+'d'
+
+S:\Basics>csc methodtest3.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest3.exe 23.4 32.5
+Original values = 23.4, 32.5
+Swapped values = 32.5, 23.4
+Average is 27.95 with a deviation of 4.55
+
+S:\Basics>csc methodtest3.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest3.exe 23.4 32.5
+Original values = 23.4, 32.5
+Swapped values = 32.5, 23.4
+Average is 27.95 with a deviation of 4.55
+
+S:\Basics>csc methodtest3.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+methodtest3.cs(15,3): error CS0177: The out parameter 'dev' must be as
+signed to before control leaves the current method
+
+S:\Basics>csc methodtest3.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>methodtest3.exe 23.4 32.5
+Original values = 23.4, 32.5
+Swapped values = 32.5, 23.4
+Average is 27.95 with a deviation of 4.55
+
+S:\Basics>np methodtest3.cs
+'np' is not recognized as an internal or external command,
+operable program or batch file.
+
+S:\Basics>notepad methodtest3.cs
+
+S:\Basics>notepad structtypetest.cs
+
+S:\Basics>csc structtypetest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>structtypetest.exe
+Room 504 is of Business class and is currently Available.
+
+S:\Basics>csc structtypetest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+structtypetest.cs(27,3): error CS0165: Use of unassigned local variabl
+e 'myroom'
+structtypetest.cs(9,14): warning CS0649: Field 'HotelRoom.Taken' is ne
+ver assigned to, and will always have its default value false
+
+S:\Basics>csc structtypetest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>structtypetest.exe
+Room 504 is of Business class and is currently Available.
+Checking into this room...
+Room 504 is of Business class and is currently Available.
+
+S:\Basics>structtypetest.exe
+Room 504 is of Business class and is currently Available.
+Checking into this room...
+Room 504 is of Business class and is currently Available.
+
+S:\Basics>csc structtypetest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>structtypetest.exe
+Room 504 is of Business class and is currently Available.
+Checking into this room...
+Room 504 is of Business class and is currently Occupied.
+
+S:\Basics>csc structtypetest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>structtypetest.exe
+Room 504 is of Business class and is currently Available.
+Checking into this room...
+Room 504 is of Business class and is currently Occupied.
+Cannot check into an occupied room!
+
+S:\Basics>copy structtypetest.cs classtypetest.cs
+        1 file(s) copied.
+
+S:\Basics>notepad classtypetest.cs
+
+S:\Basics>csc classtypetest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>classtypetest.exe
+Room 504 is of Business class and is currently Available.
+Checking into this room...
+Room 504 is of Business class and is currently Occupied.
+
+S:\Basics>
+
+

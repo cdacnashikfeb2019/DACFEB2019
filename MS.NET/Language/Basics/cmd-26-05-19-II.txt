@@ -1,0 +1,286 @@
+S:\Basics>csc propertytest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>propertytest1.exe
+Perimeter of first rectangle = 84
+Perimeter of second rectangle = 40
+Inner area of first rectangle = 216
+
+S:\Basics>ildasm propertytest1.exe
+
+S:\Basics>csc propertytest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>ildasm propertytest1.exe
+
+S:\Basics>propertytest1.exe
+Perimeter of first rectangle = 84
+Perimeter of second rectangle = 40
+Inner area of first rectangle = 216
+
+S:\Basics>notepad propertytest2.cs
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>ildasm propertytest2.exe
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>propertytest2.exe
+Jack's credit is 4000
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>propertytest2.exe
+Jack's credit is 4000
+Jill's credit is 6000
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>propertytest2.exe
+Jack's credit is 4000
+Jill's credit is 6000
+John's credit is 5000
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>propertytest2.exe
+Jack's credit is 4000
+Jill's credit is 6000
+John's credit is 5000
+Student with ID 12 has scored 60.5
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>propertytest2.exe
+Jack's credit is 4000
+Jill's credit is 6000
+John's credit is 5000
+Student with ID 12 has scored 60.5
+Student with ID 21 has scored 50.5
+
+S:\Basics>ildasm propertytest2.exe
+
+S:\Basics>ildasm propertytest2.exe
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>propertytest2.exe
+Jack's credit is 4000
+Jill's credit is 6000
+John's credit is 5000
+Student with ID 12 has scored 60.5
+Student with ID 21 has scored 50.5
+
+S:\Basics>ildasm propertytest2.exe
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+propertytest2.cs(35,60): error CS1061: '<anonymous type: int Id, doubl
+e Marks>' does not contain a definition for 'Score' and no accessible
+extension method 'Score' accepting a first argument of type '<anonymou
+s type: int Id, double Marks>' could be found (are you missing a using
+ directive or an assembly reference?)
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>ildasm propertytest2.exe
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>ildasm propertytest2.exe
+
+S:\Basics>csc propertytest2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>notepad operatortest.cs
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>operatortest.exe
+6:05
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>operatortest.exe
+5:45
+3:20
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+operatortest.cs(33,16): error CS0019: Operator '+' cannot be applied t
+o operands of type 'Interval' and 'Interval'
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+operatortest.cs(24,68): error CS1061: 'Interval' does not contain a de
+finition for 'Second' and no accessible extension method 'Second' acce
+pting a first argument of type 'Interval' could be found (are you miss
+ing a using directive or an assembly reference?)
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>operatortest.exe
+5:45
+3:20
+9:05
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+operatortest.cs(41,16): error CS0019: Operator '*' cannot be applied t
+o operands of type 'int' and 'Interval'
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>operatortest.exe
+5:45
+3:20
+9:05
+17:15
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>operatortest.exe
+5:45
+3:20
+9:05
+17:15
+3:21
+3:21
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>operatortest.exe
+5:45
+3:20
+9:05
+17:15
+3:21
+3:20
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+operatortest.cs(59,14): error CS0029: Cannot implicitly convert type '
+Interval' to 'double'
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>operatortest.exe
+5:45
+3:20
+9:05
+17:15
+3:21
+3:20
+5.75
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+operatortest.cs(65,14): error CS0266: Cannot implicitly convert type '
+Interval' to 'double'. An explicit conversion exists (are you missing
+a cast?)
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>operatortest.exe
+5:45
+3:20
+9:05
+17:15
+3:21
+3:20
+Interval
+
+S:\Basics>csc operatortest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\Basics>operatortest.exe
+5:45
+3:20
+9:05
+17:15
+3:21
+3:20
+5.75
+
