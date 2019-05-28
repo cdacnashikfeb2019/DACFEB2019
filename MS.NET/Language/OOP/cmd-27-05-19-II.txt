@@ -1,0 +1,300 @@
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+derivedclasstest2.cs(40,21): error CS0266: Cannot implicitly convert t
+ype 'Payroll.Employee' to 'Payroll.SalesPerson'. An explicit conversio
+n exists (are you missing a cast?)
+
+S:\OOP>csc derivedclasstest2.cs payroll2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>derivedclasstest2.exe
+Average Income = 17439.40
+Total Bonus = 2100.00
+
+Unhandled Exception: System.InvalidCastException: Unable to cast objec
+t of type 'Payroll.Employee' to type 'Payroll.SalesPerson'.
+   at Program.GetTotalSales(Employee[] group)
+   at Program.Main()
+
+S:\OOP>
+S:\OOP>csc derivedclasstest2.cs payroll2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>derivedclasstest2.exe
+Average Income = 17439.40
+Total Bonus = 2100.00
+Total Sakes = 100000.00
+
+S:\OOP>csc derivedclasstest2.cs payroll2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>derivedclasstest2.exe
+Average Income = 17439.40
+Total Bonus = 2100.00
+Total Sales = 100000.00
+
+S:\OOP>copy ..\Basics\operatortest.cs interval.cs
+        1 file(s) copied.
+
+S:\OOP>np interval.cs
+
+S:\OOP>ildasm derivedclasstest1.exe
+
+S:\OOP>np objequalitytest.cs
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+interval.cs(18,36): error CS0103: The name 'Second' does not exist in
+the current context
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>objequalitytest.exe
+Interval instance<1> initialized
+Interval instance<2> initialized
+Interval instance<3> initialized
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>objequalitytest.exe
+Interval instance<1> initialized
+Interval instance<2> initialized
+Interval instance<3> initialized
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>objequalitytest.exe
+Interval instance<1> initialized
+Interval instance<2> initialized
+Interval instance<3> initialized
+Interval a = Interval
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+objequalitytest.cs(22,43): error CS1061: 'Interval' does not contain a
+ definition for 'ToDouble' and no accessible extension method 'ToDoubl
+e' accepting a first argument of type 'Interval' could be found (are y
+ou missing a using directive or an assembly reference?)
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>ildasm c:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.d
+ll
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>objequalitytest.exe
+Interval instance<1> initialized
+Interval instance<2> initialized
+Interval instance<3> initialized
+Interval a = 5:20
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>objequalitytest.exe
+Interval instance<1> initialized
+Interval instance<2> initialized
+Interval instance<3> initialized
+Interval a = 5:20
+Interval b = 3:40
+Interval c = 5:20
+Interval d = 3:40
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>objequalitytest.exe
+Interval instance<1> initialized
+Interval instance<2> initialized
+Interval instance<3> initialized
+Interval a = 5:20
+Interval b = 3:40
+Interval c = 5:20
+Interval d = 3:40
+a is identical to b: False
+a is identical to c: False
+d is identical to b: True
+
+S:\OOP>np interval.cs
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>objequalitytest.exe
+Interval instance<1> initialized
+Interval instance<2> initialized
+Interval instance<3> initialized
+Interval a = 5:20
+Interval b = 3:40
+Interval c = 5:20
+Interval d = 3:40
+a is identical to b: False
+a is identical to c: False
+d is identical to b: True
+a is equal to b: False
+a is equal to c: True
+d is equal to b: True
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+objequalitytest.cs(12,29): error CS0216: The operator 'Interval.operat
+or ==(Interval, Interval)' requires a matching operator '!=' to also b
+e defined
+
+S:\OOP>csc objequalitytest.cs interval.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>objequalitytest.exe
+Interval instance<1> initialized
+Interval instance<2> initialized
+Interval instance<3> initialized
+Interval a = 5:20
+Interval b = 3:40
+Interval c = 5:20
+Interval d = 3:40
+a is identical to b: False
+a is identical to c: False
+d is identical to b: True
+a is equal to b: False
+a is equal to c: True
+d is equal to b: True
+
+S:\OOP>np banking1.cs
+
+S:\OOP>csc banking1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+error CS5001: Program does not contain a static 'Main' method suitable
+ for an entry point
+
+S:\OOP>csc banking1.cs /t:library
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>dir
+ Volume in drive S is SoftDev
+ Volume Serial Number is E487-BDF3
+
+ Directory of S:\OOP
+
+05/27/2019  05:12 PM    <DIR>          .
+05/27/2019  05:12 PM    <DIR>          ..
+05/27/2019  05:10 PM             1,277 banking1.cs
+05/27/2019  05:12 PM             4,096 banking1.dll
+05/27/2019  12:24 PM             9,070 cmd-27-05-19-I.txt
+05/27/2019  10:41 AM               807 derivedclasstest1.cs
+05/27/2019  10:42 AM             5,632 derivedclasstest1.exe
+05/27/2019  11:19 AM             1,236 derivedclasstest2.cs
+05/27/2019  11:19 AM             5,632 derivedclasstest2.exe
+05/27/2019  04:25 PM               788 interval.cs
+05/27/2019  04:35 PM             1,183 objequalitytest.cs
+05/27/2019  04:35 PM             5,632 objequalitytest.exe
+05/27/2019  10:09 AM               892 payroll1.cs
+05/27/2019  10:42 AM               918 payroll2.cs
+              12 File(s)         37,163 bytes
+               2 Dir(s)  16,590,872,576 bytes free
+
+S:\OOP>csc banking1.cs /t:library
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>ildasm banking1.dll
+
+S:\OOP>np abstractclasstest.cs
+
+S:\OOP>ildasm banking1.dll
+
+S:\OOP>csc abstractclasstest.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+abstractclasstest.cs(1,7): error CS0246: The type or namespace name 'B
+anking' could not be found (are you missing a using directive or an as
+sembly reference?)
+
+S:\OOP>csc abstractclasstest.cs /r:banking1.dll
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>abstractclasstest.exe
+Jack's Account ID is 1002796 and Balance is 15000
+Jill's Account ID is 2002797 and Balance is 15000
+
+S:\OOP>abstractclasstest.exe
+Jack's Account ID is 1034812 and Balance is 15000
+Jill's Account ID is 2034813 and Balance is 15000
+
+S:\OOP>abstractclasstest.exe
+Jack's Account ID is 1058171 and Balance is 15000
+Jill's Account ID is 2058172 and Balance is 15000
+
+S:\OOP>csc abstractclasstest.cs /r:banking1.dll
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>abstractclasstest.exe 3000
+Payment transferred.
+Jack's Account ID is 1067468 and Balance is 18000
+Jill's Account ID is 2067469 and Balance is 12000
+
+S:\OOP>abstractclasstest.exe 12000
+Payment transfer failed due to lack of funds!
+Jack's Account ID is 1097656 and Balance is 15000
+Jill's Account ID is 2097657 and Balance is 15000
+
+S:\OOP>abstractclasstest.exe
+Usage: abstractclasstest payment-to-transfer
+Jack's Account ID is 1042968 and Balance is 15000
+Jill's Account ID is 2042969 and Balance is 15000
+
+S:\OOP>abstractclasstest.exe 4OOO
+Usage: abstractclasstest payment-to-transfer
+Jack's Account ID is 1067250 and Balance is 15000
+Jill's Account ID is 2067251 and Balance is 15000
+
+S:\OOP>
+S:\OOP>notepad banking1.cs
+
+S:\OOP>abstractclasstest.exeConsole.WriteLine($"Jack's Account ID is {
+jack.Id} and Balance is {jack.Balance}");

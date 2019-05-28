@@ -1,0 +1,127 @@
+
+S:\>cd OOP
+
+S:\OOP>doskey np=notepad $*
+
+S:\OOP>copy banking1.cs banking2.cs
+        1 file(s) copied.
+
+S:\OOP>np banking2.cs
+
+S:\OOP>csc banking2.cs /t:library
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>csc banking2.cs /t:library
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>np interfacetest.cs
+
+S:\OOP>csc interfacetest.cs /r:banking2.dll
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>interfacetest.exe
+2003734 10000
+1003735 20000
+2003736 30000
+1003737 40000
+2003738 50000
+
+S:\OOP>csc interfacetest.cs /r:banking2.dll
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>interfacetest.exe
+2082875 10100
+1082876 20000
+2082877 30375
+1082878 40000
+2082879 50625
+
+S:\OOP>csc interfacetest.cs /r:banking2.dll
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>interfacetest.exe
+2075718 10100
+1075719 20000
+2075720 30375
+1075721 39250
+2075722 50625
+
+S:\OOP>np delegatetest1.cs
+
+S:\OOP>csc delegatetest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>delegatetest1.exe
+All squares: 1 4 9 16 25 36 49 64 81 100
+
+S:\OOP>csc delegatetest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>delegatetest1.exe
+All squares: 1 4 9 16 25 36 49 64 81 100
+Number of odd squares = 5
+
+S:\OOP>csc delegatetest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>delegatetest1.exe
+All squares: 1 4 9 16 25 36 49 64 81 100
+Number of odd squares = 5
+
+S:\OOP>csc delegatetest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>csc delegatetest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+delegatetest1.cs(36,77): error CS0123: No overload for 'Progra
+long)' matches delegate 'Filter'
+
+S:\OOP>csc delegatetest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>delegatetest1.exe
+All squares: 1 4 9 16 25 36 49 64 81 100
+Number of odd squares = 5
+
+S:\OOP>csc delegatetest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+delegatetest1.cs(42,77): error CS1503: Argument 2: cannot conv
+ 'method group' to 'Filter'
+
+S:\OOP>csc delegatetest1.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+S:\OOP>delegatetest1.exe
+All squares: 1 4 9 16 25 36 49 64 81 100
+Number of odd squares = 5
+Number of big squares = 3
+
+S:\OOP>ildasm delegatetest1.exe
+
+S:\OOP>
