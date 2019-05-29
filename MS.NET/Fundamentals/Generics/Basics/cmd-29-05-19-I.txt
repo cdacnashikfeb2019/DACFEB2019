@@ -1,0 +1,55 @@
+S:
+cls
+subst s: MS.NET\Fundamentals\Language
+s:
+cd OOP
+doskey np=notepad $*
+np objfinalizetest.cs
+csc objfinalizetest.cs
+objequalitytest.exe
+objfinalizetest.exe
+csc objfinalizetest.cs
+objfinalizetest.exe
+csc objfinalizetest.cs /d:TESTING
+objfinalizetest.exe
+csc objfinalizetest.cs /d:TESTING
+objfinalizetest.exe
+ildasm objequalitytest.exe
+ildasm objfinalizetest.exe
+csc objfinalizetest.cs /d:TESTING
+objfinalizetest.exe
+csc objfinalizetest.cs /d:TESTING
+objfinalizetest.exe
+csc objfinalizetest.cs /d:TESTING
+objfinalizetest.exe
+csc objfinalizetest.cs /d:TESTING
+objfinalizetest.exe
+csc objfinalizetest.cs /d:TESTING
+objfinalizetest.exe
+csc objfinalizetest.cs /d:TESTING
+objfinalizetest.exe
+objfinalizetest.exe 5
+objfinalizetest.exe five
+csc objfinalizetest.cs /d:TESTING
+objfinalizetest.exe 5
+objfinalizetest.exe jack
+csc objfinalizetest.cs /d:TESTING
+objfinalizetest.exe 5
+objfinalizetest.exe jack
+csc objfinalizetest.cs /d:TESTING
+e:
+subst /D s:
+md MS.NET\Fundamentals\Generics
+subst s:  MS.NET\Fundamentals\Generics
+s:
+md Basics
+cd Basics
+dir
+np autoboxtest.cs
+csc autoboxtest.cs
+ildasm autoboxtest.exe
+csc autoboxtest.cs
+ildasm autoboxtest.exe
+csc autoboxtest.cs
+ildasm autoboxtest.exe
+doskey /h > cmd-29-05-19-I.txt

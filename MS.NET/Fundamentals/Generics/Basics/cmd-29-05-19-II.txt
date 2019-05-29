@@ -1,0 +1,52 @@
+np autoboxtest.cs
+csc autoboxtest.cs
+autoboxtest.exe -8
+autoboxtest.exe 9
+csc autoboxtest.cs
+autoboxtest.exe -8
+autoboxtest.exe 9
+csc autoboxtest.cs
+autoboxtest.exe -8
+autoboxtest.exe 9
+ildasm autoboxtest.exe
+copy e:\MS.NET\Fundamentals\Language\OOP\interval.cs
+np interval.cs
+csc autoboxtest.cs
+csc autoboxtest.cs interval.cs
+autoboxtest.exe -8
+autoboxtest.exe 9
+csc autoboxtest.cs
+csc autoboxtest.cs interval.cs
+autoboxtest.exe -8
+csc autoboxtest.cs interval.cs
+autoboxtest.exe -8
+autoboxtest.exe 9
+csc autoboxtest.cs interval.cs
+copy autoboxtest.cs genmethodtest.cs
+copy genmethodtest.cs
+np genmethodtest.cs
+csc genmethodtest.cs interval.cs
+genmethodtest.exe -8
+genmethodtest.exe 9
+ildasm genmethodtest.exe
+copy genmethodtest.cs genconstrainttest.cs
+np genconstrainttest.cs
+csc genconstrainttest.cs
+genconstrainttest.exe
+np interval.cs
+csc genconstrainttest.cs
+genconstrainttest.exe interval.cs
+csc genconstrainttest.cs interval.cs
+genconstrainttest.exe
+np genclasstest.cs
+csc genclasstest.cs
+genclasstest.exe
+csc genclasstest.cs
+genclasstest.exe
+csc genclasstest.cs
+csc genclasstest.cs interval.cs
+genclasstest.exe
+csc genclasstest.cs
+csc genclasstest.cs interval.cs
+genclasstest.exe
+doskey /h > cmd-29-05-19-II.txt
