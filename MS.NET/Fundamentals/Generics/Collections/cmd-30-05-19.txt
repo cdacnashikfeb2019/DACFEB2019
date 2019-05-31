@@ -1,0 +1,103 @@
+subst s: Fundamentals\Generics
+d:
+s:
+cd Basics
+dir
+copy genclasstest.cs genvariancetest.cs
+np genvariancetest.cs
+csc genvariancetest.cs interval.cs
+genvariancetest.exe
+csc genvariancetest.cs interval.cs
+genvariancetest.exe
+csc genvariancetest.cs interval.cs
+genvariancetest.exe
+csc genvariancetest.cs interval.cs
+genvariancetest.exe
+csc genvariancetest.cs interval.cs
+genvariancetest.exe
+np iterationtest.cs
+copy genclasstest.cs iterationtest.cs
+np iterationtest.cs
+csc iterationtest.cs
+iterationtest.exe
+csc iterationtest.cs
+iterationtest.exe
+np nullvaltypetest.cs
+csc nullvaltypetest.cs
+nullvaltypetest.exe jane
+nullvaltypetest.exe jack
+nullvaltypetest.exe jeff
+csc nullvaltypetest.cs
+nullvaltypetest.exe jane
+nullvaltypetest.exe jack
+nullvaltypetest.exe jeff
+doskey /h > cmd-30-05-2019.txt
+cd ..
+md Collections
+cd Collections
+np listtest.cs
+copy ..\Basics\interval.cs
+csc listtest.cs interval.cs
+listtest.exe
+copy listtest.cs settest.cs
+np settest.cs
+np listtest.cs
+csc listtest.cs interval.cs
+listtest.exe
+copy listtest.cs settest.cs
+y
+np settest.cs
+ren settest.cs settest1.cs
+np settest1.cs
+csc settest1.cs interval.cs
+settest1.exe
+copy settest1.cs settest2.cs
+np settest2.cs
+csc settest2.cs interval.cs
+settest2.exe
+np interval.cs
+csc settest2.cs interval.cs
+settest2.exe
+csc settest2.cs interval.cs
+settest2.exe
+csc settest2.cs interval.cs
+settest2.exe
+copy listtest.cs dictionarytest1.cs
+np dictionarytest1.cs
+csc dictionarytest1.cs interval.cs
+dictionarytest1.exe
+csc dictionarytest1.cs interval.cs
+dictionarytest1.exe tuesday
+dictionarytest1.exe friday
+dictionarytest1.exe
+csc dictionarytest1.cs interval.cs
+dictionarytest1.exe
+csc dictionarytest1.cs interval.cs
+dictionarytest1.exe 
+csc dictionarytest1.cs interval.cs
+dictionarytest1.exe thursday
+dictionarytest1.exe sunday
+csc dictionarytest1.cs interval.cs
+dictionarytest1.exe thursday
+dictionarytest1.exe sunday
+dictionarytest1.exe
+dictionarytest1.exe monday friday
+copy dictionarytest1.cs dictionarytest2.cs
+np dictionarytest2.cs
+csc dictionarytest2.cs interval.cs
+dictionarytest2.exe monday
+dictionarytest2.exe sunday
+dictionarytest2.exe 
+csc dictionarytest2.cs interval.cs
+dictionarytest2.exe monday
+dictionarytest2.exe sunday
+copy dictionarytest2.cs  dictionarytest3.cs
+np dictionarytest3.cs
+csc dictionarytest3.cs interval.cs
+dictionarytest3.exe tuesday
+dictionarytest3.exe sunday
+dictionarytest3.exe 
+csc dictionarytest3.cs interval.cs
+dictionarytest3.exe tuesday
+dictionarytest3.exe sunday
+doskey /h > cmd-30-05-19.txt
