@@ -1,0 +1,54 @@
+cd Fundamentals\Platform\
+cls
+dir
+subst S: .
+S:
+cd Persistence
+cls
+dir
+np readwritetest1.cs
+csc readwritetest1.cs
+readwritetest1.exe 4999.95 20000 HDD
+readwritetest1.exe 
+dir
+np item.dat
+copy readwritetest1.cs readwritetest2.cs
+np readwritetest2.cs
+csc readwritetest2.cs
+readwritetest2.exe 4999.95 20000 HDD
+readwritetest2.exe 
+dir item.*
+np item.txt
+copy z:\Shared\hr.cs serhr.cs
+np serhr.cs
+csc /t:library serhr.cs
+np objsertest1.cs
+csc objsertest1.cs /r:serhr.dll
+objsertest1.exe Accounting
+objsertest1.exe 
+dir
+np dept.dat
+csc /t:library serhr.cs
+csc /langversion:7.3 /t:library serhr.cs
+objsertest1.exe Accounting
+objsertest1.exe 
+np dept.dat
+copy Z:\Shared\hr.cs xmlhr.cs
+np xmlhr.cs
+csc /t:library xmlhr.cs
+copy objsertest1.cs objsertest2.cs
+np objsertest2.cs
+csc objsertest2.cs /t:xmlhr.dll
+csc objsertest2.cs /r:xmlhr.dll
+objsertest2.exe Accounting
+objsertest2.exe 
+np dept.xml
+csc /t:library xmlhr.cs
+objsertest2.exe Accounting
+objsertest2.exe 
+np dept.xml
+np xmllinqtest.cs
+csc xmllinqtest.cs
+xmllinqtest.exe
+xmllinqtest.exe 4
+doskey /h > cmd-04-06-19.txt

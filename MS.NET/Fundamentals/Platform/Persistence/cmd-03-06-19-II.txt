@@ -1,0 +1,92 @@
+cd Fundamentals
+cls
+dir
+mkdir Platform
+subst s: Platform
+s:
+mkdir Concurrency
+cd Concurrency
+copy z:\Shared\threads\worker.cs
+np worker.cs
+np threadtest.cs
+csc threadtest.cs worker.cs
+threadtest.exe
+csc threadtest.cs worker.cs
+threadtest.exe
+threadtest.exe 70
+csc threadtest.cs worker.cs
+threadtest.exe
+threadtest.exe 70
+threadtest.exe 90
+copy z:\Shared\threads\threadsynctest.cs
+np threadsynctest.cs
+csc threadsynctest.cs
+csc threadsynctest.cs worker.cs
+threadsynctest.exe
+csc threadsynctest.cs worker.cs
+threadsynctest.exe
+csc threadsynctest.cs worker.cs
+threadsynctest.exe
+csc threadsynctest.cs worker.cs
+threadsynctest.exe
+copy z:\Shared\threads\threadcoordtest.cs
+np threadcoordtest.cs
+csc threadcoordtest.cs worker.cs
+threadcoordtest.exe
+csc threadcoordtest.cs worker.cs
+threadcoordtest.exe
+doskey /h > cmd-03-06-19-I.txt
+dir
+copy z:\Shared\threads\tasktest1.cs
+np tasktest1.cs
+csc tasktest1.cs worker.cs
+tasktest1.exe
+csc tasktest1.cs worker.cs
+tasktest1.exe
+copy z:\Shared\threads\tasktest2.cs
+np tasktest2.cs
+csc tasktest2.cs worker.cs
+tasktest2.exe
+csc tasktest2.cs worker.cs
+cls
+tasktest2.exe
+csc tasktest2.cs worker.cs
+tasktest2.exe
+csc tasktest2.cs worker.cs
+np paralleltest1.cs
+csc paralleltest1.cs worker.cs
+paralleltest1.exe
+csc paralleltest1.cs worker.cs
+paralleltest1.exe
+copy paralleltest1.exe z:\Shared\Testing
+copy paralleltest1.cs paralleltest2.cs
+np paralleltest2.cs
+np worker.cs
+csc paralleltest2.cs worker.cs
+paralleltest2.exe
+csc paralleltest2.cs worker.cs
+paralleltest2.exe
+copy paralleltest2.exe z:\Shared\Testing
+cd ..
+md Persistence
+cd Persistence
+np filestrmtest.cs
+csc filestrmtest.cs
+copy filestrmtest.cs data1.txt
+np data1.txt
+filestrmtest.exe data1.txt data2.txt
+dir
+np data2.txt
+filestrmtest.exe data1.txt data2.txt
+filestrmtest.exe data2.txt data3.txt
+np data3.txt
+filestrmtest.exe data4.txt data5.txt
+copy filestrmtest.cs memmapfiletest.cs
+np memmapfiletest.cs
+csc memmapfiletest.cs
+np data1.txt
+memmapfiletest.exe data1.txt
+np data1.txt
+memmapfiletest.exe data1.txt
+np data1.txt
+doskey /h > cmd-03-06-19-II.txt
