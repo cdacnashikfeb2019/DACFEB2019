@@ -1,0 +1,236 @@
+**********************************************************************
+
+** Visual Studio 2017 Developer Command Prompt v15.9.12
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+
+
+E:\>md MS.NET\Fundamentals\Language
+
+E:\>cd MS.NET\Fundamentals\Language
+
+E:\MS.NET\Fundamentals\Language>notepad hello1.il
+
+E:\MS.NET\Fundamentals\Language>ilasm hello1.il
+
+Microsoft (R) .NET Framework IL Assembler.  Version 4.7.3062.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+Assembling 'hello1.il'  to EXE --> 'hello1.exe'
+Source file is ANSI
+
+Assembled global method Start
+Creating PE file
+
+Emitting classes:
+
+Emitting fields and methods:
+Global  Methods: 1;
+
+Emitting events and properties:
+Global
+Writing PE file
+Operation completed successfully
+
+E:\MS.NET\Fundamentals\Language>dir
+ Volume in drive E is SoftDev
+ Volume Serial Number is E487-BDF3
+
+ Directory of E:\MS.NET\Fundamentals\Language
+
+05/25/2019  04:45 PM    <DIR>          .
+05/25/2019  04:45 PM    <DIR>          ..
+05/25/2019  04:45 PM             2,048 hello1.exe
+05/25/2019  04:45 PM               223 hello1.il
+               2 File(s)          2,271 bytes
+               2 Dir(s)  16,591,077,376 bytes free
+
+E:\MS.NET\Fundamentals\Language>hello1
+Hello World!
+
+E:\MS.NET\Fundamentals\Language>ilasm hello1.il
+
+Microsoft (R) .NET Framework IL Assembler.  Version 4.7.3062.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+Assembling 'hello1.il'  to EXE --> 'hello1.exe'
+Source file is ANSI
+
+Assembled global method Start
+Creating PE file
+
+Emitting classes:
+
+Emitting fields and methods:
+Global  Methods: 1;
+
+Emitting events and properties:
+Global
+Writing PE file
+Operation completed successfully
+
+E:\MS.NET\Fundamentals\Language>hello1
+
+Unhandled Exception: System.MissingMethodException: Method not found:
+'Void System.Console.WriteLin(System.String)'.
+   at Start()
+
+E:\MS.NET\Fundamentals\Language>
+E:\MS.NET\Fundamentals\Language>ilasm hello1.il
+
+Microsoft (R) .NET Framework IL Assembler.  Version 4.7.3062.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+Assembling 'hello1.il'  to EXE --> 'hello1.exe'
+Source file is ANSI
+
+Assembled global method Start
+Creating PE file
+
+Emitting classes:
+
+Emitting fields and methods:
+Global  Methods: 1;
+
+Emitting events and properties:
+Global
+Writing PE file
+Operation completed successfully
+
+E:\MS.NET\Fundamentals\Language>dir
+ Volume in drive E is SoftDev
+ Volume Serial Number is E487-BDF3
+
+ Directory of E:\MS.NET\Fundamentals\Language
+
+05/25/2019  05:03 PM    <DIR>          .
+05/25/2019  05:03 PM    <DIR>          ..
+05/25/2019  05:03 PM             2,048 hello1.exe
+05/25/2019  05:03 PM               223 hello1.il
+               2 File(s)          2,271 bytes
+               2 Dir(s)  16,591,077,376 bytes free
+
+E:\MS.NET\Fundamentals\Language>hello1
+Hello World!
+
+E:\MS.NET\Fundamentals\Language>notepad hello2.cs
+
+E:\MS.NET\Fundamentals\Language>csc hello2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+E:\MS.NET\Fundamentals\Language>dir
+ Volume in drive E is SoftDev
+ Volume Serial Number is E487-BDF3
+
+ Directory of E:\MS.NET\Fundamentals\Language
+
+05/25/2019  05:13 PM    <DIR>          .
+05/25/2019  05:13 PM    <DIR>          ..
+05/25/2019  05:03 PM             2,048 hello1.exe
+05/25/2019  05:03 PM               223 hello1.il
+05/25/2019  05:12 PM               109 hello2.cs
+05/25/2019  05:13 PM             3,584 hello2.exe
+               4 File(s)          5,964 bytes
+               2 Dir(s)  16,591,073,280 bytes free
+
+E:\MS.NET\Fundamentals\Language>hello2
+Hello World!
+
+E:\MS.NET\Fundamentals\Language>csc hello2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+hello2.cs(5,18): error CS0117: 'Console' does not contain a definition
+ for 'WriteLin'
+
+E:\MS.NET\Fundamentals\Language>csc hello2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+E:\MS.NET\Fundamentals\Language>hello2
+Hello World!
+
+E:\MS.NET\Fundamentals\Language>ildasm hello2.exe
+
+E:\MS.NET\Fundamentals\Language>csc hello2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+E:\MS.NET\Fundamentals\Language>ildasm hello2.exe
+
+E:\MS.NET\Fundamentals\Language>csc hello2.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+E:\MS.NET\Fundamentals\Language>ildasm hello2.exe
+
+E:\MS.NET\Fundamentals\Language>notepad greeting.cs
+
+E:\MS.NET\Fundamentals\Language>csc greeting.cs
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+error CS5001: Program does not contain a static 'Main' method suitable
+ for an entry point
+
+E:\MS.NET\Fundamentals\Language>csc greeting.cs /target:library
+Microsoft (R) Visual C# Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+E:\MS.NET\Fundamentals\Language>dir
+ Volume in drive E is SoftDev
+ Volume Serial Number is E487-BDF3
+
+ Directory of E:\MS.NET\Fundamentals\Language
+
+05/25/2019  05:28 PM    <DIR>          .
+05/25/2019  05:28 PM    <DIR>          ..
+05/25/2019  05:27 PM               185 greeting.cs
+05/25/2019  05:28 PM             3,072 greeting.dll
+05/25/2019  05:03 PM             2,048 hello1.exe
+05/25/2019  05:03 PM               223 hello1.il
+05/25/2019  05:18 PM               109 hello2.cs
+05/25/2019  05:18 PM             3,584 hello2.exe
+               6 File(s)          9,221 bytes
+               2 Dir(s)  16,591,069,184 bytes free
+
+E:\MS.NET\Fundamentals\Language>notepad greetapp.vb
+
+E:\MS.NET\Fundamentals\Language>vbc greetapp.vb
+Microsoft (R) Visual Basic Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+E:\MS.NET\Fundamentals\Language\greetapp.vb(6) : error BC30002: Type '
+Greeting.Greeter' is not defined.
+
+        Dim greeter As New Greeting.Greeter
+                           ~~~~~~~~~~~~~~~~
+
+E:\MS.NET\Fundamentals\Language>vbc greetapp.vb /reference:greeting.dl
+l
+Microsoft (R) Visual Basic Compiler version 2.10.0.0 (b9fb1610)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+E:\MS.NET\Fundamentals\Language>greetapp.exe
+
+E:\MS.NET\Fundamentals\Language>greetapp.exe
+
+E:\MS.NET\Fundamentals\Language>ildasm greeting.dll
+
+E:\MS.NET\Fundamentals\Language>history > cmd-25-05-19.txt
+'history' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\MS.NET\Fundamentals\Language>history
+'history' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\MS.NET\Fundamentals\Language>get-history
+'get-history' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\MS.NET\Fundamentals\Language>
