@@ -1,3 +1,4 @@
+[assembly:System.Reflection.AssemblyVersion("1.0.0.0")]
 namespace Payroll
 {
 	public class Employee
