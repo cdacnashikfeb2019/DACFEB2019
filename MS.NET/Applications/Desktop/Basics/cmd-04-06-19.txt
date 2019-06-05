@@ -1,0 +1,33 @@
+dir
+md Applications\Desktop
+subst s: Applications\Desktop
+subst /d s:
+subst s: Applications\Desktop
+s:
+md Basics
+cs Basics
+cd Basics
+np winplaintest.cs
+s:
+e:
+s:
+np winplaintest.cs
+csc winplaintest.cs
+winplaintest.exe
+dumpbin /headers winplaintest.exe
+dumpbin /headers c:\Windows\System32\notepad.exe
+csc winplaintest.cs /t:winexe
+dumpbin /headers winplaintest.exe
+csc winplaintest.cs /t:winexe
+copy winplaintest.cs winpainttest.cs
+np winpainttest.cs
+csc /t:winexe winpainttest.cs
+np winpainttest.cs
+copy winplaintest.cs winpainttest.cs
+n
+csc /t:winexe winpainttest.cs
+copy winplaintest.cs winchildtest.cs
+np winchildtest.cs
+csc /t:winexe winchildtest.cs
+csc /t:winexe winchildtest.cs worker.cs
+doskey /h > cmd-04-06-19.txt
