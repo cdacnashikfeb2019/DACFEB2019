@@ -1,0 +1,105 @@
+cd Fundamentals\Runtime
+cd Reflection
+cls
+subst S: .
+S:
+cls
+dir
+e:
+subst /d s:
+cd ..
+subst /d s:
+subst S: .
+s:
+cd Reflection
+dir
+np payroll.cs
+csc /t:library payroll.cs
+objaccesstest.exe
+csc objaccesstest.cs /r:payroll.dll
+csc objaccesstest.cs interval.cs /r:payroll.dll
+ildasm objaccesstest.exe
+gacutil /i payroll.dll
+ildasm objaccesstest.exe
+sn -k met.snk
+sn -T payroll.dll
+csc /t:library /keyfile:met.snk payroll.cs
+sn -T payroll.dll
+gacutil /i payroll.dll
+dir /s c:\Windows\Microsoft.NET\assembly\payroll.dll
+csc objaccesstest.cs interval.cs /r:payroll.dll
+ildasm objaccesstest.exe
+del payroll.dll
+objaccesstest.exe
+dir *.dll
+gacutil /u payroll,version=1.0.0.0,publickeytoken=55195d5e02cbd896
+objaccesstest.exe
+csc /t:library /keyfile:met.snk payroll.cs
+objaccesstest.exe
+ildasm latebindtest.exe
+np assemloadtest.cs
+csc assemloadtest.cs
+assemloadtest.exe
+copy assemloadtest.cs assemunloadtest.cs
+np assemunloadtest.cs
+csc assemunloadtest.cs
+assemunloadtest.exe
+csc assemunloadtest.cs
+assemunloadtest.exe
+csc assemunloadtest.cs
+assemunloadtest.exe
+np greeters.js
+jsc /t:library greeters.js
+dir
+np dynamictest.cs
+csc dynamictest.cs
+dynamictest.exe Casual
+dynamictest.exe Formal
+csc dynamictest.cs
+dynamictest.exe Casual
+dynamictest.exe Formal
+csc dynamictest.cs
+dynamictest.exe Casual
+csc dynamictest.cs
+dynamictest.exe Casual
+doskey /h > cmd-01-06-19.txt
+cd ..
+md Interop
+cd Interop
+cd legacy
+dir
+cd ..
+legacy\x86\setup.bat
+np legacy\squaring.c
+copy legacy\squaring.c ptrtypetest.cs
+np ptrtypetest.cs
+csc ptrtypetest.cs
+csc /unsafe ptrtypetest.cs
+ptrtypetest.exe 5
+ptrtypetest.exe
+ptrtypetest.exe 50
+csc /unsafe ptrtypetest.cs
+ptrtypetest.exe 5
+ptrtypetest.exe
+ptrtypetest.exe 50
+np legacy\include\asset.h
+np pinvoketest1.cs
+ildasm legacy\x86\asset.dll
+csc pinvoketest1.cs
+pinvoketest1.exe 9000 5
+csc /platform:x86 pinvoketest1.cs
+csc /?
+csc /platform:x86 pinvoketest1.cs
+pinvoketest1.exe 9000 5
+csc /platform:x86 pinvoketest1.cs
+pinvoketest1.exe 9000 5
+copy pinvoketest1.cs pinvoketest2.cs
+np pinvoketest2.cs
+csc pinvoketest2.cs
+csc /platform:x86 pinvoketest2.cs
+pinvoketest2.exe monday
+pinvoketest2.exe sunday
+csc /platform:x86 pinvoketest2.cs
+pinvoketest2.exe monday
+pinvoketest2.exe NLMGBZ
+doskey /h > cmd-01-06-19.txt

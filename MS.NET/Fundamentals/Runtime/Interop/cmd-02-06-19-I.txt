@@ -1,0 +1,14 @@
+cd ..\Interop
+copy pinvoketest1.cs pinvoketest3.cs
+np pinvoketest3.cs
+csc /platform:x86 pinvoketest3.cs
+pinvoketest3.exe 75000 4
+csc /platform:x86 pinvoketest3.cs
+pinvoketest3.exe 75000 4
+guidgen
+// {0A2051C6-99FD-4462-8314-0E2D85D688D8}
+IMPLEMENT_OLECREATE(<<class>>, <<external_name>>, 
+0xa2051c6, 0x99fd, 0x4462, 0x83, 0x14, 0xe, 0x2d, 0x85, 0xd6, 0x88, 0xd8);
+regedit
+c:\Windows\SysWOW64\regedit.exe
+doskey /h > cmd-02-06-19-I.txt

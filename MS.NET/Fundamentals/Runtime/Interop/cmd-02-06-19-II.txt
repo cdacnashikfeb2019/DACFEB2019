@@ -1,0 +1,49 @@
+cd Fundamentals\Runtime\
+cls
+S:
+cd Interop
+cls
+dir
+tlbimp legacy\x86\quadeq.exe
+ildasm QuadEq.dll
+np cominteroptest1.cs
+ildasm QuadEq.dll
+ildasm pinvoketest1.exe
+ildasm QuadEq.dll
+csc cominteroptest1.cs /r:QuadEq.dll
+csc /platform:x86 cominteroptest1.cs /r:QuadEq.dll
+cominteroptest1.exe 30 56
+cominteroptest1.exe 40 150
+ildasm QuadEq.dll
+tlbimp legacy\x86\finance.dll
+ildasm FinanceLib.dll
+np cominteroptest2.cs
+ildasm FinanceLib.dll
+csc /platform:x86 cominteroptest2.cs /link:FinanceLib.dll
+cominteroptest2.exe 500000 4
+csc /platform:x86 cominteroptest2.cs /link:FinanceLib.dll
+cominteroptest2.exe 500000 4
+csc /platform:x86 cominteroptest2.cs /link:FinanceLib.dll
+cominteroptest2.exe 500000 4
+csc /platform:x86 cominteroptest2.cs /link:FinanceLib.dll
+cominteroptest2.exe 500000 4
+csc /platform:x86 cominteroptest2.cs /link:FinanceLib.dll
+cominteroptest2.exe 500000 4
+cominteroptest2.exe 500000 400
+csc /platform:x86 cominteroptest2.cs /link:FinanceLib.dll
+cominteroptest2.exe 500000 4
+csc /platform:x86 cominteroptest2.cs /link:FinanceLib.dll
+cominteroptest2.exe 500000 4
+csc /platform:x86 cominteroptest2.cs /link:FinanceLib.dll
+cominteroptest2.exe 500000 4
+np ijwbridge.cpp
+cl /LD /CLR ijwbridge.cpp legacy\x86\taxation.obj
+ildasm ijwbridge.dll
+np mixmodeasmtest.cs
+csc /platform:x86 mixmodeasmtest.cs /r:ijwbridge.dll
+mixmodeasmtest.exe 24 480000
+mixmodeasmtest.exe 64 480000
+mixmodeasmtest.exe 84 480000
+mixmodeasmtest.exe 64 4800000
+ildasm ijwbridge.dll
+doskey /h > cmd-02-06-19-II.txt
