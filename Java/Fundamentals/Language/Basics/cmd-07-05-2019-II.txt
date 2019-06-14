@@ -1,0 +1,80 @@
+    3  cp -r Java/ ~/Shared/
+    4  ls
+    5  cd Foundations/
+    6  ls
+    7  cd ..
+    8  cd Java/Fundamentals/Basics/
+    9  vi TryCatchTest.java
+   10  javac TryCatchTest.java 
+   11  vi TryCatchTest.java
+   12  javac TryCatchTest.java 
+   13  java TryCatchTest
+   14  java TryCatchTest 2
+   15  vi TryCatchTest.java
+   16  javac TryCatchTest.java 
+   17  vi TryCatchTest.java
+   18  javac TryCatchTest.java 
+   19  vi TryCatchTest.java
+   20  javac TryCatchTest.java 
+   21  vi TryCatchTest.java
+   22  javac TryCatchTest.java 
+   23  vi TryCatchTest.java
+   24  javac TryCatchTest.java 
+   25  java TryCatchTest
+   26  java TryCatchTest 2 
+   27  vi TryCatchTest.java
+   28  javac TryCatchTest.java 
+   29  java TryCatchTest 2 
+   30* 
+   31  java TryCatchTest 
+   32  vi TryCatchTest.java
+   33  javac TryCatchTest.java 
+   34  java TryCatchTest 2
+   35  java TryCatchTest 
+   36  vi TryCatchTest.java
+   37  javac TryCatchTest.java 
+   38  java TryCatchTest 2.0
+   39  java TryCatchTest 
+   40  vi TryCatchTest.java
+   41  javac TryCatchTest.java 
+   42  java TryCatchTest 4.4
+   43  vi TryCatchTest.java
+   44  javac TryCatchTest.java 
+   45  java TryCatchTest 4.4
+   46  java TryCatchTest 
+   47  vi TryCatchTest.java
+   48  java TryCatchTest 5.5
+   49  java TryCatchTest 
+   50  java TryCatchTest five
+   51  vi TryCatchTest.java
+   52  javac TryCatchTest.java 
+   53  java TryCatchTest 5.0
+   54  java TryCatchTest 
+   55  java TryCatchTest five
+   56  vi TryCatchTest.java
+   57  javap java.lang.RuntimeException
+   58  javap -p java.lang.RuntimeException
+   59  javap -p java.lang.NumberFormatException
+   60  javap -p java.lang.IllegalArgumentException
+   61  cp TryCatchTest.java TryFinalyTest.java
+   62  vi TryFinalyTest.java 
+   63  mv TryFinalyTest.java TryFinallyTest.java 
+   64  vi TryFinallyTest.java 
+   65  javac TryFinallyTest.java 
+   66  java TryFinallyTest 5.2
+   67  java TryFinallyTest 
+   68  vi TryFinallyTest.java 
+   69  javac TryFinallyTest.java 
+   70  java TryFinallyTest 5.2
+   71  java TryFinallyTest 
+   72  vi TryFinallyTest.java 
+   73  java TryFinallyTest 2.0
+   74  java TryFinallyTest 
+   75  javac TryFinallyTest.java 
+   76  java TryFinallyTest 2.4
+   77  java TryFinallyTest 
+   78  lls
+   79  ls
+   80  cd ..
+   81  cp -r Java/ ~/Shared/
+   82  history > Java/Fundamentals/Basics/cmd-07-05-2019-II.txt 

@@ -1,0 +1,263 @@
+  737  mkdir Java
+  738  cd Java/
+  739  pwd
+  740  mkdir Fundamentals
+  741  cd Fundamentals/
+  742  pwd
+  743  ulimit
+  744  ulimit -s
+  745  vi Hello.java
+  746  javac Hello.java
+  747  vi Hello.java
+  748  javac Hello.java
+  749  rm *.class
+  750  vi Hello.java 
+  751  javac Hello.java
+  752  vi Hello.java 
+  753  javac Hello.java
+  754  vi Hello.java 
+  755  javac Hello.java
+  756  java Hello
+  757  vi Hello.java 
+  758  rm *.class
+  759  ls
+  760  javac Hello.java 
+  761  ls
+  762  java Hello.class
+  763  java Greeter.class 
+  764  ls
+  765  java Greeter.class 
+  766  java Greeter
+  767  vi Hello.java 
+  768  javac Hello.java 
+  769  java Greeter
+  770  vi Greeter.class 
+  771  java Greeter
+  772  javac Hello.java 
+  773  java Greeter
+  774  vi Greeter.class 
+  775  java -version
+  776  vi Greeter.class 
+  777  java Greeter
+  778  vi Hello.java 
+  779  javac Hello.java 
+  780  vi Hello.java 
+  781  javac Hello.java 
+  782  vi Hello.java 
+  783  javac Hello.java 
+  784  java Greeter
+  785  vi Hello.java 
+  786  javac Hello.java 
+  787  java Greeter
+  788  vi Hello.java 
+  789  javap -p java.io.PrintStream
+  790  vi Hello.java 
+  791  cp Greeter.class ~/Shared/
+  792  javac Hello.java 
+  793  java Greeter
+  794  cp Greeter.class ~/Shared/
+  795  mv /usr/java/jdk1.8.0_121/jre/lib/rt.jar /usr/java/jdk1.8.0_121/jre/lib/tr.jar
+  796  sudo mv /usr/java/jdk1.8.0_121/jre/lib/rt.jar /usr/java/jdk1.8.0_121/jre/lib/tr.jar
+  797  java Greeter
+  798  sudo mv /usr/java/jdk1.8.0_121/jre/lib/tr.jar /usr/java/jdk1.8.0_121/jre/lib/rt.jar
+  799  java Greeter
+  800  vi Hello.java 
+  801  vi ForTest.java
+  802  ls
+  803  rm *.class
+  804  javac Hello.java 
+  805  ls
+  806  vi ForTest.java 
+  807  java Greeter
+  808  java ForTest Jack Jill John Jeff
+  809  vi ForTest.java 
+  810  javac ForTest.java 
+  811  java ForTest Jack
+  812  vi ForTest.java 
+  813  javac ForTest.java 
+  814  java ForTest Jack
+  815  vi ForTest.java 
+  816  javac ForTest.java 
+  817  java ForTest Jack
+  818  java ForTest Jack Jill
+  819  java ForTest Jack Jill John
+  820  vi ForTest.java 
+  821  java ForTest Jack Jill John
+  822  java ForTest Jack Jill John Jeff
+  823  javac ForTest.java 
+  824  java ForTest Jack Jill John Jeff
+  825  vi ForTest.java 
+  826  javac ForTest.java 
+  827  java ForTest Jack Jill John Jeff
+  828  java ForTest Jack Jill John Jeff Jim Jerry
+  829  vi ForTest.java 
+  830  javac ForTest.java 
+  831  java ForTest Jack Jill John Jeff
+  832  java ForTest Jack
+  833  vi ForTest.java 
+  834  javac ForTest.java 
+  835  vi ForTest.java 
+  836  cp ForTest.java ForEachTest.java
+  837  vi ForEachTest.java 
+  838  javac ForEachTest.java 
+  839  vi ForEachTest.java 
+  840  javac ForEachTest.java 
+  841  vi ForEachTest.java 
+  842  javac ForTest.java 
+  843  java ForTest Jack
+  844  javac ForEachTest.java 
+  845  java ForEachTest Jack
+  846  java ForEachTest Jack Jill
+  847  java ForEachTest Jack Jill John Jeff jerry
+  848  vi ForEachTest.java 
+  849  vi MethodTest.java
+  850  javac MethodTest.java 
+  851  vi MethodTest.java
+  852  set
+  853  vi MethodTest.java
+  854  javac MethodTest.java
+  855  vi MethodTest.java
+  856  javac MethodTest.java
+  857  vi MethodTest.java
+  858  javac MethodTest.java
+  859  java MethodTest
+  860  vi MethodTest.java
+  861  javac MethodTest.java
+  862  java MethodTest
+  863  vi MethodTest.java
+  864  javac MethodTest.java
+  865  java MethodTest
+  866  vi MethodTest.java
+  867  javac MethodTest.java
+  868  java MethodTest
+  869  vi MethodTest.java
+  870  java MethodTest
+  871  vi MethodTest.java
+  872  javac MethodTest.java
+  873  vi MethodTest.java
+  874  javac MethodTest.java
+  875  vi MethodTest.java
+  876  javac MethodTest.java
+  877  java MethodTest 700000 4
+  878  java MethodTest 7000000 4
+  879  java MethodTest 7000000 7
+  880  java MethodTest 100000 7
+  881  vi MethodTest.java
+  882  cd ..
+  883  cp -r Java/ ~/Shared/
+  884  exit
+  885  javap -p java.io.PrintStream,
+  886  javap -p java.io.PrintStream
+  887  javap -p java.lang.System
+  888  exit
+  889  echo $name
+  890  exit
+  891  cd Java/
+  892  cd Fundamentals/
+  893  ls
+  894  ll
+  895  rm <Del>
+  896  ls
+  897  mkdir Basics
+  898  mv * Basics/
+  899  ls 
+  900  cd Basics/
+  901  vi MethodTest.java 
+  902  javac MethodTest.java 
+  903  java MethodTest
+  904  java MethodTest 500000 4
+  905  vi MethodTest.java 
+  906  javac MethodTest.java 
+  907  vi MethodTest.java 
+  908  javac MethodTest.java 
+  909  java MethodTest 500000 4
+  910  vi MethodTest.java 
+  911  javac MethodTest.java 
+  912  java MethodTest 500000 4
+  913  vi MethodTest.java 
+  914  vi VarArgTest.java
+  915  javac VarArgTest.java 
+  916  java VarArgTest
+  917  javac VarArgTest.java 
+  918  vi VarArgTest.java
+  919  javac VarArgTest.java 
+  920  java VarArgTest
+  921  vi VarArgTest.java
+  922  javac VarArgTest.java 
+  923  java VarArgTest
+  924  vi VarArgTest.java
+  925  javac VarArgTest.java 
+  926  java VarArgTest
+  927  vi VarArgTest.java
+  928  man 3 printf
+  929  vi VarArgTest.java
+  930  javap -c VarArgTest.class 
+  931  vi VarArgTest.java
+  932  javac VarArgTest.java 
+  933  java VarArgTest
+  934  vi VarArgTest.java
+  935  javac -source 1.6 VarArgTest.java 
+  936  javac -source 1.7 VarArgTest.java 
+  937  javac -source v1.7 VarArgTest.java 
+  938  vi VarArgTest.java
+  939  java Greeter.class 
+  940  javac Hello.java 
+  941  java Greeter.class
+  942  pwd
+  943  /usr/java/jdk1.8.0_121/jre/lib/
+  944  /usr/java/jdk1.8.0_121/jre/lib/ext/
+  945  rm Greeter.class 
+  946  java Greeter
+  947  javac Hello.java 
+  948  mv Greeter.class /SoftDev/Foundations/
+  949  ls
+  950  java Greeter
+  951  java -cp /SoftDev/Foundations/ Greeter 
+  952  java Greeter
+  953  set CLASSPATH=/SoftDev/Foundations/
+  954  java Greeter
+  955  CLASSPATH=/SoftDev/Foundations/
+  956  java Greeter
+  957  CLASSPATH=/SoftDev/Foundations/:.
+  958  java Greeter
+  959  CLASSPATH=/SoftDev/Foundations/*:.
+  960  java Greeter
+  961  CLASSPATH=/SoftDev/Foundations/
+  962  export CLASSPATH=/SoftDev/Foundations/
+  963  java Greeter
+  964  name=Akash
+  965  sh 
+  966  echo $name
+  967  export name=Akash
+  968  sh 
+  969  java Greeter
+  970  vi ~/.bashrc
+  971  java Greeter
+  972  exit
+  973  echo $CLASSPATH
+  974  java Greeter
+  975  vi ~/bashrc
+  976  vi ~/.bashrc 
+  977  exit
+  978  java Greeter
+  979  JAVA_HOME
+  980  JAVA_HOME/jre/lib
+  981  pwd
+  982  ls
+  983  ls Foundations/
+  984  pwd
+  985  ls
+  986  java Greeter
+  987  java -cp .:Foundations/:/bin Greeter
+  988  export CLASSPATH=.:Foundations/:/bin
+  989  java Greeter
+  990  rm Foundations/Greeter.class 
+  991  java Greeter
+  992  cd Java/Fundamentals/Basics/
+  993  javac Hello.java 
+  994  cd /SoftDev/
+  995  cp -r Java/ ~/Shared/
+  996  exit
+  997  cd Java/
+  998  cd Fundamentals/Basics/
+  999  history > cmd-07-05-2019-I.txt
